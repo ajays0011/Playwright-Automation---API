@@ -30,14 +30,12 @@ env:
 
 jobs:
   api-tests:
-    name: API Tests - ${{ matrix.environment }}
+    name: API Tests - ${{ github.event.inputs.environment || 'dev' }}
     runs-on: ubuntu-latest
     timeout-minutes: 30
 
-    strategy:
-      fail-fast: false
-      matrix:
-        environment: ${{ github.event_name == 'workflow_dispatch' && fromJSON(format('["{0}"]', github.event.inputs.environment)) || fromJSON('["dev", "qa"]') }}
+    # GitHub Environment — loads env-specific secrets and variables
+    environment: ${{ github.event.inputs.environment || 'dev' }}
 
     steps:
       - name: Checkout Repository
@@ -55,6 +53,20 @@ jobs:
       - name: Install Playwright
         run: npx playwright install --with-deps
 
+      - name: Create Environment Config
+        run: |
+          cat > env/.env.${{ github.event.inputs.environment || 'dev' }} << 'EOF'
+          BASE_URL=${{ vars.BASE_URL || secrets.BASE_URL || 'https://bookstore.toolsqa.com' }}
+          ENV_NAME=${{ github.event.inputs.environment || 'dev' }}
+          API_USERNAME=${{ secrets.API_USERNAME || 'testuser_ci' }}
+          API_PASSWORD=${{ secrets.API_PASSWORD || 'Test@12345' }}
+          TOKEN_EXPIRY_BUFFER_MS=${{ vars.TOKEN_EXPIRY_BUFFER_MS || '30000' }}
+          LOG_LEVEL=${{ vars.LOG_LEVEL || 'info' }}
+          REQUEST_TIMEOUT=${{ vars.REQUEST_TIMEOUT || '30000' }}
+          RESPONSE_TIME_THRESHOLD=${{ vars.RESPONSE_TIME_THRESHOLD || '5000' }}
+          MAX_WORKERS=${{ vars.MAX_WORKERS || '2' }}
+          EOF
+
       - name: Run API Tests
         run: |
           if [ -n "${{ github.event.inputs.tags }}" ]; then
@@ -63,14 +75,14 @@ jobs:
             npx playwright test
           fi
         env:
-          ENV: ${{ matrix.environment }}
+          ENV: ${{ github.event.inputs.environment || 'dev' }}
           CI: true
 
       - name: Upload Playwright HTML Report
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: playwright-report-${{ matrix.environment }}
+          name: playwright-report-${{ github.event.inputs.environment || 'dev' }}
           path: playwright-report/
           retention-days: 30
 
@@ -78,7 +90,7 @@ jobs:
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: allure-results-${{ matrix.environment }}
+          name: allure-results-${{ github.event.inputs.environment || 'dev' }}
           path: allure-results/
           retention-days: 30
 
@@ -86,7 +98,7 @@ jobs:
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: test-results-${{ matrix.environment }}
+          name: test-results-${{ github.event.inputs.environment || 'dev' }}
           path: test-results/
           retention-days: 14
 
@@ -94,7 +106,7 @@ jobs:
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: test-logs-${{ matrix.environment }}
+          name: test-logs-${{ github.event.inputs.environment || 'dev' }}
           path: logs/
           retention-days: 14
 
@@ -107,7 +119,7 @@ jobs:
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: allure-report-${{ matrix.environment }}
+          name: allure-report-${{ github.event.inputs.environment || 'dev' }}
           path: allure-report/
           retention-days: 30
 
