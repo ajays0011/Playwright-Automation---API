@@ -212,13 +212,9 @@ MAX_WORKERS=4
 
 ## 📊 Reporting
 
-### Playwright HTML Report
-
-```bash
-npm run report:html
-```
-
 ### Allure Report
+
+Rich, interactive test reports with detailed request/response data, environment info, and trend analysis.
 
 ```bash
 # Generate and open
@@ -231,12 +227,36 @@ npm run report:allure:generate
 npm run report:allure:open
 ```
 
-Reports include:
-- ✅ Test execution summary
-- 📎 Request/response attachments
-- 🌍 Environment information
-- 📈 Trend analysis (Allure)
-- 📸 Failure details
+![Allure Report Overview](docs/images/allure-report.png)
+
+### Playwright HTML Report
+
+Built-in Playwright HTML report with test filtering, duration tracking, and failure details.
+
+```bash
+npm run report:html
+```
+
+![Playwright HTML Report](docs/images/playwright-report.png)
+
+### GitHub Actions CI
+
+Automated test execution with report artifacts on every push, PR, or scheduled run.
+
+![GitHub Actions Run](docs/images/github-actions.png)
+
+### Report Features
+
+| Feature | Playwright Report | Allure Report |
+|---------|:-:|:-:|
+| Test pass/fail summary | ✅ | ✅ |
+| Request/response attachments | ❌ | ✅ |
+| Environment information | ❌ | ✅ |
+| Trend analysis | ❌ | ✅ |
+| Failure screenshots | ✅ | ✅ |
+| Duration tracking | ✅ | ✅ |
+| Retry history | ✅ | ✅ |
+| Categories & suites | ✅ | ✅ |
 
 ---
 
@@ -272,22 +292,19 @@ expect.soft(response.responseTime).toBeLessThan(3000);
 ## 🔄 CI/CD Integration
 
 ### GitHub Actions
+
 Workflow file: `.github/workflows/api-tests.yml`
-- Matrix strategy for multi-environment runs
-- Nightly cron schedule
-- Report artifacts
 
-### Jenkins
-Pipeline file: `jenkins/Jenkinsfile`
-- Parameterized build
-- Allure report integration
-- HTML report publishing
+| Trigger | Environment | Description |
+|---------|------------|-------------|
+| Push to `main`/`develop` | `dev` (default) | Auto-runs on every push |
+| Pull Request | `dev` (default) | Validates PR changes |
+| Manual Dispatch | Dropdown: `dev` / `qa` / `cert` | On-demand with tag filtering |
+| Nightly Schedule | `dev` (default) | Cron at 2 AM UTC |
 
-### Azure DevOps
-Pipeline file: `azure-pipelines.yml`
-- Environment parameters
-- Test result publishing
-- Artifact management
+**Manual Run:** Go to **Actions** → **API Automation Tests** → **Run workflow** → select environment and tags.
+
+**Environment Secrets:** Configure per-environment credentials in **Settings** → **Environments** → add `API_USERNAME`, `API_PASSWORD`, `BASE_URL`.
 
 ---
 
