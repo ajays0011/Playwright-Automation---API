@@ -1,0 +1,6 @@
+[04:21:00.323] info: [Fixtures] API Client created
+[04:21:00.325] info: [AccountService] Generating token for user: nonexistent_user_def_999
+[04:21:00.325] info: [ApiClient] ➡️  REQUEST
+[04:21:01.811] info: [ApiClient] ⬅️  RESPONSE
+[04:21:01.825] debug: [SchemaValidator] SchemaValidator initialized with AJV
+[04:21:01.847] warn: [SchemaValidator] Schema validation failed with 1 error(s)

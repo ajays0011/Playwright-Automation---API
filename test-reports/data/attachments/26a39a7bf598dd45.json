@@ -1,0 +1,17 @@
+{
+  "statusCode": 401,
+  "responseTime": "440ms",
+  "headers": {
+    "server": "nginx/1.17.10 (Ubuntu)",
+    "date": "Mon, 27 Jul 2026 04:24:53 GMT",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "48",
+    "connection": "keep-alive",
+    "x-powered-by": "Express",
+    "etag": "W/\"30-V67npMN18Zy3bnk1xW2xtLGgx8c\""
+  },
+  "body": {
+    "code": "1200",
+    "message": "User not authorized!"
+  }
+}

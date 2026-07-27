@@ -1,0 +1,25 @@
+[04:24:37.949] debug: [TestHelpers] Generated unique username: testuser_yovumacp
+[04:24:37.949] info: [AccountService] Creating user: testuser_yovumacp
+[04:24:37.949] info: [ApiClient] ➡️  REQUEST
+[04:24:39.613] info: [ApiClient] ⬅️  RESPONSE
+[04:24:39.615] info: [AccountService] User created successfully: 1a884cce-7da8-419c-800b-77b0bdd08846
+[04:24:39.615] info: [Fixtures] Test user created: 1a884cce-7da8-419c-800b-77b0bdd08846 (testuser_yovumacp)
+[04:24:39.616] debug: [TokenManager] Custom credentials set for user: testuser_yovumacp
+[04:24:39.616] info: [TokenManager] Generating token for user: testuser_yovumacp on dev
+[04:24:42.784] info: [TokenManager] Token generated successfully. Expires: 2026-08-03T04:24:39.703Z
+[04:24:42.785] debug: [ApiClient] Auth token set: eyJhbGciOiJIUzI1NiIs...
+[04:24:42.785] debug: [TokenManager] Custom credentials set for user: testuser_yovumacp
+[04:24:42.785] info: [TokenManager] Generating token for user: testuser_yovumacp on dev
+[04:24:44.297] info: [TokenManager] Token generated successfully. Expires: 2026-08-03T04:24:42.871Z
+[04:24:44.297] debug: [ApiClient] Auth token set: eyJhbGciOiJIUzI1NiIs...
+[04:24:44.297] info: [Fixtures] Authenticated API Client created with token for user: testuser_yovumacp
+[04:24:44.298] info: [AccountService] Getting user profile: 1a884cce-7da8-419c-800b-77b0bdd08846
+[04:24:44.298] info: [ApiClient] ➡️  REQUEST
+[04:24:46.337] info: [ApiClient] ⬅️  RESPONSE
+[04:24:46.339] debug: [TokenManager] Custom credentials set for user: testuser_yovumacp
+[04:24:46.340] debug: [TokenManager] Returning cached token
+[04:24:46.340] debug: [ApiClient] Auth token set: eyJhbGciOiJIUzI1NiIs...
+[04:24:46.340] info: [AccountService] Deleting user: 1a884cce-7da8-419c-800b-77b0bdd08846
+[04:24:46.340] info: [ApiClient] ➡️  REQUEST
+[04:24:46.915] warn: [ApiClient] ⬅️  RESPONSE
+[04:24:46.917] info: [Fixtures] Test user cleaned up: 1a884cce-7da8-419c-800b-77b0bdd08846
