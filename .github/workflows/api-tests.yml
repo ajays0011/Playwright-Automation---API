@@ -55,6 +55,7 @@ jobs:
 
       - name: Create Environment Config
         run: |
+          mkdir -p env
           cat > env/.env.${{ github.event.inputs.environment || 'dev' }} << 'EOF'
           BASE_URL=${{ vars.BASE_URL || secrets.BASE_URL || 'https://bookstore.toolsqa.com' }}
           ENV_NAME=${{ github.event.inputs.environment || 'dev' }}
