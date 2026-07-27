@@ -1,0 +1,122 @@
+pipeline {
+    agent any
+
+    parameters {
+        choice(
+            name: 'ENVIRONMENT',
+            choices: ['dev', 'qa', 'cert', 'prod'],
+            description: 'Target environment for test execution'
+        )
+        string(
+            name: 'TEST_TAGS',
+            defaultValue: '',
+            description: 'Test tags to run (e.g., @smoke, @regression). Leave empty to run all.'
+        )
+        string(
+            name: 'WORKERS',
+            defaultValue: '4',
+            description: 'Number of parallel workers'
+        )
+    }
+
+    environment {
+        ENV = "${params.ENVIRONMENT}"
+        CI = 'true'
+        NODE_VERSION = '20'
+    }
+
+    tools {
+        nodejs "${NODE_VERSION}"
+    }
+
+    options {
+        timeout(time: 30, unit: 'MINUTES')
+        timestamps()
+        buildDiscarder(logRotator(numToKeepStr: '20'))
+        disableConcurrentBuilds()
+    }
+
+    stages {
+        stage('Checkout') {
+            steps {
+                checkout scm
+                echo "Running tests on ${params.ENVIRONMENT} environment"
+            }
+        }
+
+        stage('Install Dependencies') {
+            steps {
+                sh 'npm ci'
+                sh 'npx playwright install --with-deps'
+            }
+        }
+
+        stage('Run API Tests') {
+            steps {
+                script {
+                    def testCmd = "npx playwright test --workers=${params.WORKERS}"
+
+                    if (params.TEST_TAGS?.trim()) {
+                        testCmd += " --grep '${params.TEST_TAGS}'"
+                    }
+
+                    sh returnStatus: true, script: testCmd
+                }
+            }
+        }
+
+        stage('Generate Reports') {
+            steps {
+                // Generate Allure Report
+                sh 'npm run report:allure:generate || true'
+            }
+            post {
+                always {
+                    // Publish Allure Report
+                    allure([
+                        results: [[path: 'allure-results']],
+                        reportBuildPolicy: 'ALWAYS'
+                    ])
+                }
+            }
+        }
+    }
+
+    post {
+        always {
+            // Archive Playwright HTML Report
+            publishHTML([
+                allowMissing: true,
+                alwaysLinkToLastBuild: true,
+                keepAll: true,
+                reportDir: 'playwright-report',
+                reportFiles: 'index.html',
+                reportName: 'Playwright Report',
+                reportTitles: "API Test Report - ${params.ENVIRONMENT}"
+            ])
+
+            // Archive test artifacts
+            archiveArtifacts artifacts: 'test-results/**/*', allowEmptyArchive: true
+            archiveArtifacts artifacts: 'logs/**/*', allowEmptyArchive: true
+            archiveArtifacts artifacts: 'playwright-report/**/*', allowEmptyArchive: true
+            archiveArtifacts artifacts: 'allure-report/**/*', allowEmptyArchive: true
+
+            // Cleanup workspace
+            cleanWs()
+        }
+
+        success {
+            echo 'API tests passed successfully!'
+        }
+
+        failure {
+            echo 'API tests failed. Check the reports for details.'
+            // Optionally send notification
+            // emailext(
+            //     subject: "API Tests Failed - ${params.ENVIRONMENT}",
+            //     body: "API tests failed on ${params.ENVIRONMENT}. Check Jenkins for details.",
+            //     recipientProviders: [developers()]
+            // )
+        }
+    }
+}

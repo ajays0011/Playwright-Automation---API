@@ -1,0 +1,78 @@
+{
+  "sqlInjection": [
+    {
+      "description": "basic SQL injection",
+      "payload": "' OR '1'='1"
+    },
+    {
+      "description": "SQL injection with UNION",
+      "payload": "' UNION SELECT * FROM users--"
+    },
+    {
+      "description": "SQL injection with DROP",
+      "payload": "'; DROP TABLE users;--"
+    },
+    {
+      "description": "SQL injection with comment",
+      "payload": "admin'--"
+    },
+    {
+      "description": "SQL injection with OR always true",
+      "payload": "' OR 1=1--"
+    },
+    {
+      "description": "blind SQL injection",
+      "payload": "' AND 1=1 AND ''='"
+    }
+  ],
+  "xss": [
+    {
+      "description": "basic script injection",
+      "payload": "<script>alert('xss')</script>"
+    },
+    {
+      "description": "img tag onerror",
+      "payload": "<img src=x onerror=alert('xss')>"
+    },
+    {
+      "description": "javascript protocol",
+      "payload": "javascript:alert('xss')"
+    },
+    {
+      "description": "event handler injection",
+      "payload": "\" onmouseover=\"alert('xss')\""
+    },
+    {
+      "description": "SVG injection",
+      "payload": "<svg onload=alert('xss')>"
+    },
+    {
+      "description": "iframe injection",
+      "payload": "<iframe src='javascript:alert(1)'>"
+    }
+  ],
+  "invalidHeaders": [
+    {
+      "description": "oversized header",
+      "header": "X-Custom",
+      "value": "A".repeat(10000)
+    },
+    {
+      "description": "header injection CRLF",
+      "header": "X-Custom",
+      "value": "value\r\nInjected-Header: injected"
+    },
+    {
+      "description": "null byte in header",
+      "header": "X-Custom",
+      "value": "value\u0000null"
+    }
+  ],
+  "unsupportedMethods": [
+    "PATCH",
+    "OPTIONS",
+    "HEAD",
+    "TRACE",
+    "CONNECT"
+  ]
+}

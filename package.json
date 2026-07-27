@@ -1,0 +1,44 @@
+{
+  "name": "playwright-api-automation-framework",
+  "version": "1.0.0",
+  "description": "Enterprise-grade API Automation Framework using Playwright + TypeScript for BookStore ToolsQA",
+  "author": "SDET Team",
+  "license": "MIT",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:dev": "cross-env ENV=dev npx playwright test",
+    "test:qa": "cross-env ENV=qa npx playwright test",
+    "test:cert": "cross-env ENV=cert npx playwright test",
+    "test:prod": "cross-env ENV=prod npx playwright test",
+    "test:smoke": "npx playwright test --grep @smoke",
+    "test:sanity": "npx playwright test --grep @sanity",
+    "test:regression": "npx playwright test --grep @regression",
+    "test:integration": "npx playwright test --grep @integration",
+    "test:contract": "npx playwright test --grep @contract",
+    "test:security": "npx playwright test --grep @security",
+    "test:negative": "npx playwright test --grep @negative",
+    "test:dev:smoke": "cross-env ENV=dev npx playwright test --grep @smoke",
+    "test:qa:regression": "cross-env ENV=qa npx playwright test --grep @regression",
+    "report:html": "npx playwright show-report playwright-report",
+    "report:allure:generate": "npx allure generate allure-results --clean -o allure-report",
+    "report:allure:open": "npx allure open allure-report",
+    "report:allure": "npm run report:allure:generate && npm run report:allure:open",
+    "lint": "npx tsc --noEmit",
+    "clean": "rimraf allure-results allure-report playwright-report test-results logs/*.log"
+  },
+  "dependencies": {
+    "@playwright/test": "^1.52.0",
+    "ajv": "^8.17.1",
+    "ajv-formats": "^3.0.1",
+    "allure-playwright": "^3.2.2",
+    "cross-env": "^7.0.3",
+    "dotenv": "^16.6.1",
+    "winston": "^3.17.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.0",
+    "allure-commandline": "^2.32.0",
+    "rimraf": "^6.0.1",
+    "typescript": "^5.8.0"
+  }
+}

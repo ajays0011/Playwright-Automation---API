@@ -1,0 +1,53 @@
+[
+  {
+    "description": "missing username",
+    "payload": { "password": "Test@12345" },
+    "expectedStatus": 400
+  },
+  {
+    "description": "missing password",
+    "payload": { "userName": "testuser" },
+    "expectedStatus": 400
+  },
+  {
+    "description": "empty username",
+    "payload": { "userName": "", "password": "Test@12345" },
+    "expectedStatus": 400
+  },
+  {
+    "description": "empty password",
+    "payload": { "userName": "testuser", "password": "" },
+    "expectedStatus": 400
+  },
+  {
+    "description": "null username",
+    "payload": { "userName": null, "password": "Test@12345" },
+    "expectedStatus": 400
+  },
+  {
+    "description": "null password",
+    "payload": { "userName": "testuser", "password": null },
+    "expectedStatus": 400
+  },
+  {
+    "description": "numeric username",
+    "payload": { "userName": 12345, "password": "Test@12345" },
+    "expectedStatus": 400
+  },
+  {
+    "description": "boolean username",
+    "payload": { "userName": true, "password": "Test@12345" },
+    "expectedStatus": 400
+  },
+  {
+    "description": "empty payload",
+    "payload": {},
+    "expectedStatus": 400
+  },
+  {
+    "description": "invalid credentials",
+    "payload": { "userName": "nonexistent_user_xyz", "password": "WrongPass@123" },
+    "expectedStatus": 200,
+    "expectedResult": "User authorization failed."
+  }
+]

@@ -1,0 +1,33 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+
+# Test results and reports
+test-results/
+playwright-report/
+allure-results/
+allure-report/
+
+# Logs
+logs/*.log
+
+# Environment files (contain credentials)
+env/.env.dev
+env/.env.qa
+env/.env.cert
+env/.env.prod
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Coverage
+coverage/

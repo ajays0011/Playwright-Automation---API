@@ -1,0 +1,133 @@
+name: API Automation Tests
+
+on:
+  push:
+    branches: [main, develop]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+    inputs:
+      environment:
+        description: 'Target environment'
+        required: true
+        default: 'dev'
+        type: choice
+        options:
+          - dev
+          - qa
+          - cert
+      tags:
+        description: 'Test tags to run (e.g., @smoke, @regression)'
+        required: false
+        default: ''
+        type: string
+  schedule:
+    # Nightly regression run at 2 AM UTC
+    - cron: '0 2 * * *'
+
+env:
+  NODE_VERSION: '20'
+
+jobs:
+  api-tests:
+    name: API Tests - ${{ matrix.environment }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    strategy:
+      fail-fast: false
+      matrix:
+        environment: ${{ github.event_name == 'workflow_dispatch' && fromJSON(format('["{0}"]', github.event.inputs.environment)) || fromJSON('["dev", "qa"]') }}
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+          cache: 'npm'
+
+      - name: Install Dependencies
+        run: npm ci
+
+      - name: Install Playwright
+        run: npx playwright install --with-deps
+
+      - name: Run API Tests
+        run: |
+          if [ -n "${{ github.event.inputs.tags }}" ]; then
+            npx playwright test --grep "${{ github.event.inputs.tags }}"
+          else
+            npx playwright test
+          fi
+        env:
+          ENV: ${{ matrix.environment }}
+          CI: true
+
+      - name: Upload Playwright HTML Report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: playwright-report-${{ matrix.environment }}
+          path: playwright-report/
+          retention-days: 30
+
+      - name: Upload Allure Results
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: allure-results-${{ matrix.environment }}
+          path: allure-results/
+          retention-days: 30
+
+      - name: Upload Test Results
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: test-results-${{ matrix.environment }}
+          path: test-results/
+          retention-days: 14
+
+      - name: Upload Logs
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: test-logs-${{ matrix.environment }}
+          path: logs/
+          retention-days: 14
+
+      - name: Generate Allure Report
+        if: always()
+        run: |
+          npm run report:allure:generate || true
+
+      - name: Upload Allure Report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: allure-report-${{ matrix.environment }}
+          path: allure-report/
+          retention-days: 30
+
+  # Publish report to GitHub Pages (optional)
+  publish-report:
+    name: Publish Report
+    needs: api-tests
+    if: always() && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Download Allure Report
+        uses: actions/download-artifact@v4
+        with:
+          name: allure-report-dev
+          path: allure-report/
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./allure-report
+          destination_dir: test-reports

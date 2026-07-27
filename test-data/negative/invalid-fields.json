@@ -1,0 +1,80 @@
+[
+  {
+    "description": "missing userName for user creation",
+    "endpoint": "createUser",
+    "payload": { "password": "Test@12345" },
+    "expectedStatus": 400
+  },
+  {
+    "description": "missing password for user creation",
+    "endpoint": "createUser",
+    "payload": { "userName": "testuser" },
+    "expectedStatus": 400
+  },
+  {
+    "description": "weak password - no uppercase",
+    "endpoint": "createUser",
+    "payload": { "userName": "testuser_weak1", "password": "test@12345" },
+    "expectedStatus": 400
+  },
+  {
+    "description": "weak password - no special character",
+    "endpoint": "createUser",
+    "payload": { "userName": "testuser_weak2", "password": "Test12345" },
+    "expectedStatus": 400
+  },
+  {
+    "description": "weak password - no digit",
+    "endpoint": "createUser",
+    "payload": { "userName": "testuser_weak3", "password": "Test@abcde" },
+    "expectedStatus": 400
+  },
+  {
+    "description": "weak password - too short",
+    "endpoint": "createUser",
+    "payload": { "userName": "testuser_weak4", "password": "T@1a" },
+    "expectedStatus": 400
+  },
+  {
+    "description": "empty userName",
+    "endpoint": "createUser",
+    "payload": { "userName": "", "password": "Test@12345" },
+    "expectedStatus": 400
+  },
+  {
+    "description": "null values",
+    "endpoint": "createUser",
+    "payload": { "userName": null, "password": null },
+    "expectedStatus": 400
+  },
+  {
+    "description": "empty payload",
+    "endpoint": "createUser",
+    "payload": {},
+    "expectedStatus": 400
+  },
+  {
+    "description": "numeric values",
+    "endpoint": "createUser",
+    "payload": { "userName": 12345, "password": 67890 },
+    "expectedStatus": 400
+  },
+  {
+    "description": "invalid ISBN for add book",
+    "endpoint": "addBooks",
+    "isbn": "invalid-isbn-123",
+    "expectedStatus": 400
+  },
+  {
+    "description": "empty ISBN for add book",
+    "endpoint": "addBooks",
+    "isbn": "",
+    "expectedStatus": 400
+  },
+  {
+    "description": "non-existing ISBN for get book",
+    "endpoint": "getBook",
+    "isbn": "0000000000000",
+    "expectedStatus": 400
+  }
+]

@@ -1,0 +1,14 @@
+{
+  "validUser": {
+    "userName": "testuser_qa",
+    "password": "Test@12345"
+  },
+  "alternateUser": {
+    "userName": "testuser_qa_alt",
+    "password": "Test@12345"
+  },
+  "adminUser": {
+    "userName": "admin_qa",
+    "password": "Admin@12345"
+  }
+}
