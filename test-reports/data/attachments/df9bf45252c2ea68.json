@@ -1,0 +1,18 @@
+{
+  "statusCode": 201,
+  "responseTime": "1597ms",
+  "headers": {
+    "server": "nginx/1.17.10 (Ubuntu)",
+    "date": "Mon, 27 Jul 2026 04:04:24 GMT",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "94",
+    "connection": "keep-alive",
+    "x-powered-by": "Express",
+    "etag": "W/\"5e-IZXoLHvkfsrNUkhr6E0rXqO8xY4\""
+  },
+  "body": {
+    "userID": "77cb1806-2c5d-43af-bfe9-28bc936bb446",
+    "username": "create_uuid_vltsfwa2",
+    "books": []
+  }
+}
