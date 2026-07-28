@@ -1,0 +1,5 @@
+[05:25:40.448] info: [Fixtures] API Client created
+[05:25:40.450] debug: [TestHelpers] Generated unique username: create_pos_jfyhii6b
+[05:25:40.450] info: [AccountService] Creating user: create_pos_jfyhii6b
+[05:25:40.451] info: [ApiClient] ➡️  REQUEST
+[05:25:41.413] info: [ApiClient] ⬅️  RESPONSE

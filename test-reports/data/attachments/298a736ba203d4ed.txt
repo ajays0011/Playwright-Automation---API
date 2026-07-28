@@ -1,4 +1,0 @@
-[04:24:09.401] info: [Fixtures] API Client created
-[04:24:09.401] info: [AccountService] Generating token for user: auth_pos_32vwdbpl
-[04:24:09.402] info: [ApiClient] ➡️  REQUEST
-[04:24:10.514] info: [ApiClient] ⬅️  RESPONSE
