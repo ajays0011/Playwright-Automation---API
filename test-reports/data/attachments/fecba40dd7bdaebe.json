@@ -1,0 +1,18 @@
+{
+  "statusCode": 201,
+  "responseTime": "447ms",
+  "headers": {
+    "server": "nginx/1.17.10 (Ubuntu)",
+    "date": "Wed, 29 Jul 2026 05:34:14 GMT",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "90",
+    "connection": "keep-alive",
+    "x-powered-by": "Express",
+    "etag": "W/\"5a-hn9+oQhmQkneLRObaRiUYjx6B1c\""
+  },
+  "body": {
+    "userID": "344c3216-fe2e-4f1f-92ec-263eaae168cb",
+    "username": "add_dup_cmljge1g",
+    "books": []
+  }
+}

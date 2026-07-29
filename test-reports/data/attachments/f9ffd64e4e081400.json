@@ -1,0 +1,17 @@
+{
+  "statusCode": 400,
+  "responseTime": "312ms",
+  "headers": {
+    "server": "nginx/1.17.10 (Ubuntu)",
+    "date": "Wed, 29 Jul 2026 05:34:04 GMT",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "79",
+    "connection": "keep-alive",
+    "x-powered-by": "Express",
+    "etag": "W/\"4f-RpKuEeQ3Bj2uvDIxIXvc7QRyqm4\""
+  },
+  "body": {
+    "code": "1205",
+    "message": "ISBN supplied is not available in Books Collection!"
+  }
+}
