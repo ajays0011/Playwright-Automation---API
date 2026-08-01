@@ -1,0 +1,9 @@
+{
+  "method": "GET",
+  "url": "/Account/v1/User/21855212-db25-433b-9158-e230f8fb5e3d",
+  "headers": {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+    "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyTmFtZSI6InRlc3R1c2VyX3o1eDFvbG15IiwicGFzc3dvcmQiOiJUZXN0QHNjeXo3ajFjMUEiLCJpYXQiOjE3ODU1NjI3MTN9.4bEmjwOLvOeljoj27A9S0mqTo36Fq69uzdRmMTSnTTQ"
+  }
+}

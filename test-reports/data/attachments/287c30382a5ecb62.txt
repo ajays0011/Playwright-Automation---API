@@ -1,6 +1,0 @@
-[05:46:15.484] info: [Fixtures] API Client created
-[05:46:15.484] debug: [TestHelpers] Generated unique username: create_schema_p6sdr27u
-[05:46:15.484] info: [AccountService] Creating user: create_schema_p6sdr27u
-[05:46:15.485] info: [ApiClient] ➡️  REQUEST
-[05:46:16.395] info: [ApiClient] ⬅️  RESPONSE
-[05:46:16.401] debug: [SchemaValidator] Schema validation passed

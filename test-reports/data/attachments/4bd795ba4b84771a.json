@@ -1,0 +1,18 @@
+{
+  "statusCode": 201,
+  "responseTime": "670ms",
+  "headers": {
+    "server": "nginx/1.17.10 (Ubuntu)",
+    "date": "Sat, 01 Aug 2026 05:39:10 GMT",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "92",
+    "connection": "keep-alive",
+    "x-powered-by": "Express",
+    "etag": "W/\"5c-xboPGsvRZ1aooUolK5UiF4GEq3s\""
+  },
+  "body": {
+    "userID": "683de314-ecb3-411f-a33e-ca9293f41741",
+    "username": "add_empty_lmtx3948",
+    "books": []
+  }
+}

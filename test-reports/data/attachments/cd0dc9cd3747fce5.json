@@ -1,0 +1,8 @@
+{
+  "method": "DELETE",
+  "url": "/Account/v1/User/5af3e57d-b49a-4aaa-8978-cbb6822ff3f1",
+  "headers": {
+    "Content-Type": "application/json",
+    "Accept": "application/json"
+  }
+}

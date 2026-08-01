@@ -1,0 +1,4 @@
+[05:37:33.008] info: [Fixtures] API Client created
+[05:37:33.009] info: [AccountService] Generating token for user: auth_pos_usosalof
+[05:37:33.009] info: [ApiClient] ➡️  REQUEST
+[05:37:34.878] info: [ApiClient] ⬅️  RESPONSE
