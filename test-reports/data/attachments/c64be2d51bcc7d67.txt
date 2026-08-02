@@ -1,0 +1,25 @@
+[05:39:26.550] debug: [TestHelpers] Generated unique username: testuser_gis8lg5c
+[05:39:26.550] info: [AccountService] Creating user: testuser_gis8lg5c
+[05:39:26.550] info: [ApiClient] ➡️  REQUEST
+[05:39:27.590] info: [ApiClient] ⬅️  RESPONSE
+[05:39:27.592] info: [AccountService] User created successfully: f2b15e2a-609c-4a23-af2b-7349c5b49bae
+[05:39:27.592] info: [Fixtures] Test user created: f2b15e2a-609c-4a23-af2b-7349c5b49bae (testuser_gis8lg5c)
+[05:39:27.592] debug: [TokenManager] Custom credentials set for user: testuser_gis8lg5c
+[05:39:27.592] info: [TokenManager] Generating token for user: testuser_gis8lg5c on dev
+[05:39:29.610] info: [TokenManager] Token generated successfully. Expires: 2026-08-09T05:39:27.659Z
+[05:39:29.611] debug: [ApiClient] Auth token set: eyJhbGciOiJIUzI1NiIs...
+[05:39:29.611] debug: [TokenManager] Custom credentials set for user: testuser_gis8lg5c
+[05:39:29.611] info: [TokenManager] Generating token for user: testuser_gis8lg5c on dev
+[05:39:30.516] info: [TokenManager] Token generated successfully. Expires: 2026-08-09T05:39:29.678Z
+[05:39:30.517] debug: [ApiClient] Auth token set: eyJhbGciOiJIUzI1NiIs...
+[05:39:30.517] info: [Fixtures] Authenticated API Client created with token for user: testuser_gis8lg5c
+[05:39:30.518] info: [AccountService] Getting user profile: f2b15e2a-609c-4a23-af2b-7349c5b49bae
+[05:39:30.518] info: [ApiClient] ➡️  REQUEST
+[05:39:31.423] info: [ApiClient] ⬅️  RESPONSE
+[05:39:31.431] debug: [TokenManager] Custom credentials set for user: testuser_gis8lg5c
+[05:39:31.431] debug: [TokenManager] Returning cached token
+[05:39:31.431] debug: [ApiClient] Auth token set: eyJhbGciOiJIUzI1NiIs...
+[05:39:31.432] info: [AccountService] Deleting user: f2b15e2a-609c-4a23-af2b-7349c5b49bae
+[05:39:31.432] info: [ApiClient] ➡️  REQUEST
+[05:39:31.651] warn: [ApiClient] ⬅️  RESPONSE
+[05:39:31.653] info: [Fixtures] Test user cleaned up: f2b15e2a-609c-4a23-af2b-7349c5b49bae
