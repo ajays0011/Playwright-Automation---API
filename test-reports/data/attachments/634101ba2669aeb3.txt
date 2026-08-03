@@ -1,0 +1,5 @@
+[05:54:11.549] debug: [TestHelpers] Generated unique username: auth_pos_poptb1xk
+[05:54:15.807] info: [Fixtures] API Client created
+[05:54:15.808] info: [AccountService] Generating token for user: auth_pos_poptb1xk
+[05:54:15.809] info: [ApiClient] ➡️  REQUEST
+[05:54:23.468] info: [ApiClient] ⬅️  RESPONSE

@@ -1,0 +1,11 @@
+[05:58:56.364] debug: [TestHelpers] Generated unique username: add_time_w0soqzvs
+[05:58:56.364] info: [AccountService] Creating user: add_time_w0soqzvs
+[05:58:56.365] info: [ApiClient] ➡️  REQUEST
+[05:58:59.960] info: [ApiClient] ⬅️  RESPONSE
+[05:58:59.972] debug: [TokenManager] Custom credentials set for user: add_time_w0soqzvs
+[05:58:59.972] info: [TokenManager] Generating token for user: add_time_w0soqzvs on dev
+[05:59:06.044] info: [TokenManager] Token generated successfully. Expires: 2026-08-10T05:59:00.025Z
+[05:59:06.044] debug: [ApiClient] Auth token set: eyJhbGciOiJIUzI1NiIs...
+[05:59:06.045] info: [BookStoreService] Adding books to user collection
+[05:59:06.045] info: [ApiClient] ➡️  REQUEST
+[05:59:11.767] info: [ApiClient] ⬅️  RESPONSE

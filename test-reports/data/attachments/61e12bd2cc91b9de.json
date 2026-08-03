@@ -1,0 +1,13 @@
+{
+  "method": "PUT",
+  "url": "/BookStore/v1/Books/9781449325862",
+  "headers": {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+    "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyTmFtZSI6InJlcGxfbnhfcmZneHpzZ2YiLCJwYXNzd29yZCI6IlRlc3RAdWZlaWE0bG4xQSIsImlhdCI6MTc4NTczNjY1NH0.AEmCT3GrOj9ym6cqUrMAPjtTmv3ug5ae9DRiQs8bjhQ"
+  },
+  "body": {
+    "userId": "de26d757-df40-4384-b663-4e42bcc746d6",
+    "isbn": "0000000000000"
+  }
+}
