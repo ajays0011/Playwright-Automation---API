@@ -1,7 +1,0 @@
-[05:55:01.232] info: [Fixtures] API Client created
-[05:55:01.233] debug: [TestHelpers] Generated unique username: create_schema_ik30vqxq
-[05:55:01.233] info: [AccountService] Creating user: create_schema_ik30vqxq
-[05:55:01.233] info: [ApiClient] ➡️  REQUEST
-[05:55:02.586] info: [ApiClient] ⬅️  RESPONSE
-[05:55:02.597] debug: [SchemaValidator] SchemaValidator initialized with AJV
-[05:55:02.628] debug: [SchemaValidator] Schema validation passed
