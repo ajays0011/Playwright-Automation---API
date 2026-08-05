@@ -1,0 +1,17 @@
+{
+  "statusCode": 400,
+  "responseTime": "527ms",
+  "headers": {
+    "server": "nginx/1.17.10 (Ubuntu)",
+    "date": "Wed, 05 Aug 2026 05:27:51 GMT",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "74",
+    "connection": "keep-alive",
+    "x-powered-by": "Express",
+    "etag": "W/\"4a-vCvuRRogP01dWScqcNqWZqh5jxQ\""
+  },
+  "body": {
+    "code": "1210",
+    "message": "ISBN already present in the User's Collection!"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "method": "PUT",
+  "url": "/BookStore/v1/Books/9781449325862",
+  "headers": {
+    "Content-Type": "application/json",
+    "Accept": "application/json"
+  },
+  "body": {
+    "userId": "d2f2cc5a-86d0-4e56-90d9-d214115acdee",
+    "isbn": "9781449331818"
+  }
+}

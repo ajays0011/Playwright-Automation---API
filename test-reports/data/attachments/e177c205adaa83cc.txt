@@ -1,0 +1,14 @@
+[05:30:22.296] debug: [TestHelpers] Generated unique username: replace_bk_78xinv2l
+[05:30:22.296] info: [AccountService] Creating user: replace_bk_78xinv2l
+[05:30:22.297] info: [ApiClient] ➡️  REQUEST
+[05:30:24.975] info: [ApiClient] ⬅️  RESPONSE
+[05:30:24.987] debug: [TokenManager] Custom credentials set for user: replace_bk_78xinv2l
+[05:30:24.988] info: [TokenManager] Generating token for user: replace_bk_78xinv2l on dev
+[05:30:27.438] info: [TokenManager] Token generated successfully. Expires: 2026-08-12T05:30:25.034Z
+[05:30:27.439] debug: [ApiClient] Auth token set: eyJhbGciOiJIUzI1NiIs...
+[05:30:27.439] info: [BookStoreService] Adding books to user collection
+[05:30:27.440] info: [ApiClient] ➡️  REQUEST
+[05:30:31.499] info: [ApiClient] ⬅️  RESPONSE
+[05:30:31.502] info: [BookStoreService] Replacing book 9781449325862 in collection
+[05:30:31.502] info: [ApiClient] ➡️  REQUEST
+[05:30:33.552] info: [ApiClient] ⬅️  RESPONSE
