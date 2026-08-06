@@ -1,0 +1,9 @@
+{
+  "method": "GET",
+  "url": "/Account/v1/User/",
+  "headers": {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+    "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyTmFtZSI6InRlc3R1c2VyXzYxNnpnMm80IiwicGFzc3dvcmQiOiJUZXN0QHVjdXgxbmNwMUEiLCJpYXQiOjE3ODU5OTQwNTN9.-ce00VUiRIQg85Ve1-xbKnvlhTV06MMxl--YQryQ-sU"
+  }
+}
