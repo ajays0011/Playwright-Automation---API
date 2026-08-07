@@ -1,0 +1,18 @@
+{
+  "statusCode": 201,
+  "responseTime": "1909ms",
+  "headers": {
+    "server": "nginx/1.17.10 (Ubuntu)",
+    "date": "Fri, 07 Aug 2026 04:34:45 GMT",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "91",
+    "connection": "keep-alive",
+    "x-powered-by": "Express",
+    "etag": "W/\"5b-fLDIcj8etZxqHVgDvJ3LTVHYRts\""
+  },
+  "body": {
+    "userID": "95a39ab6-0c4c-4424-92cf-1d86c63f1a0e",
+    "username": "dup_user_rykpkcye",
+    "books": []
+  }
+}
