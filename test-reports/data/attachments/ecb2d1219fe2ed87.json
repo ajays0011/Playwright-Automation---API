@@ -1,0 +1,13 @@
+{
+  "method": "DELETE",
+  "url": "/BookStore/v1/Book",
+  "headers": {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+    "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyTmFtZSI6ImRlbF9ueF9vdmxxZmtzZSIsInBhc3N3b3JkIjoiVGVzdEBqbG92enZkeDFBIiwiaWF0IjoxNzg2MTYwNzA0fQ.aQPm45fx00ZM6CiG-QuPfsY05aMh2BxvEn7AC_nJHTU"
+  },
+  "body": {
+    "isbn": "9781449325862",
+    "userId": "4e17f1a4-0e9b-48ed-8c73-18ff426a05fa"
+  }
+}

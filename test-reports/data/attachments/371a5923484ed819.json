@@ -1,0 +1,12 @@
+{
+  "statusCode": 204,
+  "responseTime": "681ms",
+  "headers": {
+    "server": "nginx/1.17.10 (Ubuntu)",
+    "date": "Sat, 08 Aug 2026 03:45:23 GMT",
+    "connection": "keep-alive",
+    "x-powered-by": "Express",
+    "etag": "W/\"60-k5JMOlGZWriiUBazwwvhSopGlE4\""
+  },
+  "body": null
+}

@@ -1,0 +1,9 @@
+{
+  "method": "DELETE",
+  "url": "/Account/v1/User/c6b53042-ae06-4c64-8413-cc845214d6a6",
+  "headers": {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+    "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyTmFtZSI6InRlc3R1c2VyX2ZsbHgxdDUwIiwicGFzc3dvcmQiOiJUZXN0QGo4eGc5aWlxMUEiLCJpYXQiOjE3ODYxNjA2MzR9.DqYZ-5BZK41086cTweVgQGn-C2HejG5WeEiKVzlkwcE"
+  }
+}
