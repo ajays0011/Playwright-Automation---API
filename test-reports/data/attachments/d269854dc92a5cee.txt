@@ -1,0 +1,33 @@
+[03:52:48.863] debug: [TestHelpers] Generated unique username: testuser_varxttx6
+[03:52:48.863] info: [AccountService] Creating user: testuser_varxttx6
+[03:52:48.863] info: [ApiClient] ➡️  REQUEST
+[03:52:49.792] info: [ApiClient] ⬅️  RESPONSE
+[03:52:49.793] info: [AccountService] User created successfully: bb87def5-3b66-4e72-88fd-e410258ca613
+[03:52:49.794] info: [Fixtures] Test user created: bb87def5-3b66-4e72-88fd-e410258ca613 (testuser_varxttx6)
+[03:52:49.794] debug: [TokenManager] Custom credentials set for user: testuser_varxttx6
+[03:52:49.794] info: [TokenManager] Generating token for user: testuser_varxttx6 on dev
+[03:52:51.908] info: [TokenManager] Token generated successfully. Expires: 2026-08-16T03:52:49.871Z
+[03:52:51.908] debug: [ApiClient] Auth token set: eyJhbGciOiJIUzI1NiIs...
+[03:52:51.909] debug: [TokenManager] Custom credentials set for user: testuser_varxttx6
+[03:52:51.909] info: [TokenManager] Generating token for user: testuser_varxttx6 on dev
+[03:52:54.109] info: [TokenManager] Token generated successfully. Expires: 2026-08-16T03:52:51.976Z
+[03:52:54.109] debug: [ApiClient] Auth token set: eyJhbGciOiJIUzI1NiIs...
+[03:52:54.110] info: [Fixtures] Authenticated API Client created with token for user: testuser_varxttx6
+[03:52:54.110] info: [AccountService] Getting user profile: invalid-uuid
+[03:52:54.110] info: [ApiClient] ➡️  REQUEST
+[03:52:54.257] warn: [ApiClient] ⬅️  RESPONSE
+[03:52:54.258] warn: [ApiClient] Received 401, attempting token refresh and retry...
+[03:52:54.258] info: [TokenManager] Forcing token refresh
+[03:52:54.258] debug: [TokenManager] Token invalidated
+[03:52:54.259] info: [TokenManager] Generating token for user: testuser_varxttx6 on dev
+[03:52:57.759] info: [TokenManager] Token generated successfully. Expires: 2026-08-16T03:52:54.328Z
+[03:52:57.759] debug: [ApiClient] Auth token set: eyJhbGciOiJIUzI1NiIs...
+[03:52:57.759] info: [ApiClient] ➡️  REQUEST
+[03:52:57.914] warn: [ApiClient] ⬅️  RESPONSE
+[03:52:57.917] debug: [TokenManager] Custom credentials set for user: testuser_varxttx6
+[03:52:57.917] debug: [TokenManager] Returning cached token
+[03:52:57.917] debug: [ApiClient] Auth token set: eyJhbGciOiJIUzI1NiIs...
+[03:52:57.917] info: [AccountService] Deleting user: bb87def5-3b66-4e72-88fd-e410258ca613
+[03:52:57.918] info: [ApiClient] ➡️  REQUEST
+[03:52:58.225] warn: [ApiClient] ⬅️  RESPONSE
+[03:52:58.227] info: [Fixtures] Test user cleaned up: bb87def5-3b66-4e72-88fd-e410258ca613

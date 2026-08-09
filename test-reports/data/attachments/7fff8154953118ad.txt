@@ -1,0 +1,11 @@
+[03:53:27.855] info: [Fixtures] API Client created
+[03:53:27.855] debug: [TestHelpers] Generated unique username: delete_pos_gj4nfqpc
+[03:53:27.855] info: [AccountService] Creating user: delete_pos_gj4nfqpc
+[03:53:27.856] info: [ApiClient] ➡️  REQUEST
+[03:53:28.772] info: [ApiClient] ⬅️  RESPONSE
+[03:53:28.780] debug: [TokenManager] Custom credentials set for user: delete_pos_gj4nfqpc
+[03:53:28.780] info: [TokenManager] Generating token for user: delete_pos_gj4nfqpc on dev
+[03:53:30.957] info: [TokenManager] Token generated successfully. Expires: 2026-08-16T03:53:28.848Z
+[03:53:30.957] info: [AccountService] Deleting user: 888a42f7-6e6a-405a-905b-8845fa8dad88
+[03:53:30.958] info: [ApiClient] ➡️  REQUEST
+[03:53:33.576] info: [ApiClient] ⬅️  RESPONSE

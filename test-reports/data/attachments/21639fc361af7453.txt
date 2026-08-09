@@ -1,0 +1,20 @@
+[03:54:04.431] debug: [TestHelpers] Generated unique username: add_dup_qm4ccdht
+[03:54:04.432] info: [AccountService] Creating user: add_dup_qm4ccdht
+[03:54:04.432] info: [ApiClient] ➡️  REQUEST
+[03:54:05.415] info: [ApiClient] ⬅️  RESPONSE
+[03:54:05.416] debug: [TokenManager] Custom credentials set for user: add_dup_qm4ccdht
+[03:54:05.417] info: [TokenManager] Generating token for user: add_dup_qm4ccdht on dev
+[03:54:06.541] info: [TokenManager] Token generated successfully. Expires: 2026-08-16T03:54:05.486Z
+[03:54:06.541] debug: [ApiClient] Auth token set: eyJhbGciOiJIUzI1NiIs...
+[03:54:06.541] info: [BookStoreService] Adding books to user collection
+[03:54:06.541] info: [ApiClient] ➡️  REQUEST
+[03:54:07.540] info: [ApiClient] ⬅️  RESPONSE
+[03:54:07.541] info: [BookStoreService] Adding books to user collection
+[03:54:07.541] info: [ApiClient] ➡️  REQUEST
+[03:54:07.817] warn: [ApiClient] ⬅️  RESPONSE
+[03:54:07.819] info: [BookStoreService] Deleting all books for user: 4b1f7a1d-be21-4830-9779-d40a772ef154
+[03:54:07.819] info: [ApiClient] ➡️  REQUEST
+[03:54:08.271] info: [ApiClient] ⬅️  RESPONSE
+[03:54:08.272] info: [AccountService] Deleting user: 4b1f7a1d-be21-4830-9779-d40a772ef154
+[03:54:08.272] info: [ApiClient] ➡️  REQUEST
+[03:54:08.866] info: [ApiClient] ⬅️  RESPONSE
