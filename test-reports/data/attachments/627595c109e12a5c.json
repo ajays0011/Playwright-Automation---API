@@ -1,0 +1,18 @@
+{
+  "statusCode": 201,
+  "responseTime": "638ms",
+  "headers": {
+    "server": "nginx/1.17.10 (Ubuntu)",
+    "date": "Mon, 10 Aug 2026 04:08:20 GMT",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "92",
+    "connection": "keep-alive",
+    "x-powered-by": "Express",
+    "etag": "W/\"5c-bXXgLmqOSZ+syMHDCpSJHfAvQX8\""
+  },
+  "body": {
+    "userID": "4352d082-ae96-4809-8aa6-0d657d463fc7",
+    "username": "add_empty_ovhanplx",
+    "books": []
+  }
+}
