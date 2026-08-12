@@ -1,0 +1,5 @@
+[04:18:03.835] info: [Fixtures] API Client created
+[04:18:03.835] debug: [TestHelpers] Generated unique username: create_headers_3gawgo2n
+[04:18:03.836] info: [AccountService] Creating user: create_headers_3gawgo2n
+[04:18:03.836] info: [ApiClient] ➡️  REQUEST
+[04:18:05.056] info: [ApiClient] ⬅️  RESPONSE

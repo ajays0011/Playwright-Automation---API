@@ -1,9 +1,0 @@
-{
-  "method": "GET",
-  "url": "/Account/v1/User/8959fa5d-e7b4-4cb8-8c34-7d5b2f248e43",
-  "headers": {
-    "Content-Type": "application/json",
-    "Accept": "application/json",
-    "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyTmFtZSI6ImRlbGV0ZV92ZXJpZnlfa3Z6eDd3bW0iLCJwYXNzd29yZCI6IlRlc3RAd2Q3MHNtZWoxQSIsImlhdCI6MTc4NjQyMDU0NH0.LJB-rWHPkByVy1aZ6BH5KSpJASkxIyIUyvqjzJfOqO0"
-  }
-}
