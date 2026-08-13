@@ -1,0 +1,18 @@
+{
+  "statusCode": 201,
+  "responseTime": "562ms",
+  "headers": {
+    "server": "nginx/1.17.10 (Ubuntu)",
+    "date": "Thu, 13 Aug 2026 04:24:15 GMT",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "91",
+    "connection": "keep-alive",
+    "x-powered-by": "Express",
+    "etag": "W/\"5b-829IHKr4CxANlpz/xZF9s94mypo\""
+  },
+  "body": {
+    "userID": "012da0a4-baf8-4232-b4a4-4337a37cbef6",
+    "username": "add_book_riewbvnc",
+    "books": []
+  }
+}
