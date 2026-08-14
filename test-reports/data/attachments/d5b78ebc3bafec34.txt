@@ -1,0 +1,25 @@
+[04:19:16.155] debug: [TestHelpers] Generated unique username: testuser_5c3l6rvi
+[04:19:16.155] info: [AccountService] Creating user: testuser_5c3l6rvi
+[04:19:16.155] info: [ApiClient] ➡️  REQUEST
+[04:19:16.985] info: [ApiClient] ⬅️  RESPONSE
+[04:19:16.986] info: [AccountService] User created successfully: 9dcd6f20-cbe7-4552-af97-b4bc4f42463e
+[04:19:16.986] info: [Fixtures] Test user created: 9dcd6f20-cbe7-4552-af97-b4bc4f42463e (testuser_5c3l6rvi)
+[04:19:16.986] debug: [TokenManager] Custom credentials set for user: testuser_5c3l6rvi
+[04:19:16.987] info: [TokenManager] Generating token for user: testuser_5c3l6rvi on dev
+[04:19:18.945] info: [TokenManager] Token generated successfully. Expires: 2026-08-21T04:19:17.060Z
+[04:19:18.945] debug: [ApiClient] Auth token set: eyJhbGciOiJIUzI1NiIs...
+[04:19:18.946] debug: [TokenManager] Custom credentials set for user: testuser_5c3l6rvi
+[04:19:18.946] info: [TokenManager] Generating token for user: testuser_5c3l6rvi on dev
+[04:19:19.864] info: [TokenManager] Token generated successfully. Expires: 2026-08-21T04:19:19.022Z
+[04:19:19.864] debug: [ApiClient] Auth token set: eyJhbGciOiJIUzI1NiIs...
+[04:19:19.864] info: [Fixtures] Authenticated API Client created with token for user: testuser_5c3l6rvi
+[04:19:19.865] info: [AccountService] Deleting user: 67046eab-7f44-4da9-a570-d9d020741a63
+[04:19:19.865] info: [ApiClient] ➡️  REQUEST
+[04:19:20.014] info: [ApiClient] ⬅️  RESPONSE
+[04:19:20.017] debug: [TokenManager] Custom credentials set for user: testuser_5c3l6rvi
+[04:19:20.017] debug: [TokenManager] Returning cached token
+[04:19:20.018] debug: [ApiClient] Auth token set: eyJhbGciOiJIUzI1NiIs...
+[04:19:20.018] info: [AccountService] Deleting user: 9dcd6f20-cbe7-4552-af97-b4bc4f42463e
+[04:19:20.018] info: [ApiClient] ➡️  REQUEST
+[04:19:20.934] warn: [ApiClient] ⬅️  RESPONSE
+[04:19:20.935] info: [Fixtures] Test user cleaned up: 9dcd6f20-cbe7-4552-af97-b4bc4f42463e

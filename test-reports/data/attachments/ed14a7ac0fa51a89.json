@@ -1,0 +1,14 @@
+{
+  "statusCode": 200,
+  "responseTime": "410ms",
+  "headers": {
+    "server": "nginx/1.17.10 (Ubuntu)",
+    "date": "Fri, 14 Aug 2026 04:19:07 GMT",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "4",
+    "connection": "keep-alive",
+    "x-powered-by": "Express",
+    "etag": "W/\"4-X/5TO4MPCKAyY0ipFgr6/IraRNs\""
+  },
+  "body": true
+}

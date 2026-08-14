@@ -1,0 +1,17 @@
+{
+  "statusCode": 401,
+  "responseTime": "153ms",
+  "headers": {
+    "server": "nginx/1.17.10 (Ubuntu)",
+    "date": "Fri, 14 Aug 2026 04:19:14 GMT",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "43",
+    "connection": "keep-alive",
+    "x-powered-by": "Express",
+    "etag": "W/\"2b-hLPYyb0m8IpHH/aFjmp8VZrYXGw\""
+  },
+  "body": {
+    "code": "1207",
+    "message": "User not found!"
+  }
+}
