@@ -1,0 +1,33 @@
+[03:04:24.937] debug: [TestHelpers] Generated unique username: testuser_fcmedidm
+[03:04:24.937] info: [AccountService] Creating user: testuser_fcmedidm
+[03:04:24.938] info: [ApiClient] ➡️  REQUEST
+[03:04:25.394] info: [ApiClient] ⬅️  RESPONSE
+[03:04:25.395] info: [AccountService] User created successfully: aad52c80-9581-4d4c-912c-a7b4c70945af
+[03:04:25.395] info: [Fixtures] Test user created: aad52c80-9581-4d4c-912c-a7b4c70945af (testuser_fcmedidm)
+[03:04:25.395] debug: [TokenManager] Custom credentials set for user: testuser_fcmedidm
+[03:04:25.395] info: [TokenManager] Generating token for user: testuser_fcmedidm on dev
+[03:04:26.201] info: [TokenManager] Token generated successfully. Expires: 2026-08-22T03:04:25.450Z
+[03:04:26.201] debug: [ApiClient] Auth token set: eyJhbGciOiJIUzI1NiIs...
+[03:04:26.202] debug: [TokenManager] Custom credentials set for user: testuser_fcmedidm
+[03:04:26.202] info: [TokenManager] Generating token for user: testuser_fcmedidm on dev
+[03:04:26.940] info: [TokenManager] Token generated successfully. Expires: 2026-08-22T03:04:26.257Z
+[03:04:26.940] debug: [ApiClient] Auth token set: eyJhbGciOiJIUzI1NiIs...
+[03:04:26.940] info: [Fixtures] Authenticated API Client created with token for user: testuser_fcmedidm
+[03:04:26.941] info: [BookStoreService] Deleting all books for user: invalid-user-id
+[03:04:26.941] info: [ApiClient] ➡️  REQUEST
+[03:04:27.049] warn: [ApiClient] ⬅️  RESPONSE
+[03:04:27.050] warn: [ApiClient] Received 401, attempting token refresh and retry...
+[03:04:27.050] info: [TokenManager] Forcing token refresh
+[03:04:27.050] debug: [TokenManager] Token invalidated
+[03:04:27.050] info: [TokenManager] Generating token for user: testuser_fcmedidm on dev
+[03:04:27.938] info: [TokenManager] Token generated successfully. Expires: 2026-08-22T03:04:27.105Z
+[03:04:27.938] debug: [ApiClient] Auth token set: eyJhbGciOiJIUzI1NiIs...
+[03:04:27.938] info: [ApiClient] ➡️  REQUEST
+[03:04:28.053] warn: [ApiClient] ⬅️  RESPONSE
+[03:04:28.055] debug: [TokenManager] Custom credentials set for user: testuser_fcmedidm
+[03:04:28.055] debug: [TokenManager] Returning cached token
+[03:04:28.055] debug: [ApiClient] Auth token set: eyJhbGciOiJIUzI1NiIs...
+[03:04:28.055] info: [AccountService] Deleting user: aad52c80-9581-4d4c-912c-a7b4c70945af
+[03:04:28.055] info: [ApiClient] ➡️  REQUEST
+[03:04:29.099] warn: [ApiClient] ⬅️  RESPONSE
+[03:04:29.100] info: [Fixtures] Test user cleaned up: aad52c80-9581-4d4c-912c-a7b4c70945af

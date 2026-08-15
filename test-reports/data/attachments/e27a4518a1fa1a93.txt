@@ -1,0 +1,7 @@
+[03:03:01.627] info: [Fixtures] API Client created
+[03:03:01.628] debug: [TestHelpers] Generated unique username: create_schema_yjb1bwfw
+[03:03:01.628] info: [AccountService] Creating user: create_schema_yjb1bwfw
+[03:03:01.628] info: [ApiClient] ➡️  REQUEST
+[03:03:02.522] info: [ApiClient] ⬅️  RESPONSE
+[03:03:02.527] debug: [SchemaValidator] SchemaValidator initialized with AJV
+[03:03:02.546] debug: [SchemaValidator] Schema validation passed
