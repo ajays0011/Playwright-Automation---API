@@ -1,0 +1,6 @@
+[03:10:37.732] info: [Fixtures] API Client created
+[03:10:37.732] info: [AccountService] Checking authorization for user: auth_chk_vwpdpc31
+[03:10:37.733] info: [ApiClient] ➡️  REQUEST
+[03:10:37.893] info: [ApiClient] ⬅️  RESPONSE
+[03:10:37.900] debug: [SchemaValidator] SchemaValidator initialized with AJV
+[03:10:37.926] debug: [SchemaValidator] Schema validation passed

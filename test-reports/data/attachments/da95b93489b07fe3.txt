@@ -1,0 +1,4 @@
+[03:10:38.949] info: [Fixtures] API Client created
+[03:10:38.950] info: [AccountService] Checking authorization for user: auth_chk_vwpdpc31
+[03:10:38.950] info: [ApiClient] ➡️  REQUEST
+[03:10:39.144] info: [ApiClient] ⬅️  RESPONSE

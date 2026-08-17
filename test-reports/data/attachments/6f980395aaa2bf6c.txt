@@ -1,0 +1,4 @@
+[03:07:20.332] info: [Fixtures] API Client created
+[03:07:20.335] info: [AccountService] Generating token for user: 
+[03:07:20.336] info: [ApiClient] ➡️  REQUEST
+[03:07:20.862] warn: [ApiClient] ⬅️  RESPONSE

@@ -1,0 +1,18 @@
+{
+  "statusCode": 201,
+  "responseTime": "699ms",
+  "headers": {
+    "server": "nginx/1.17.10 (Ubuntu)",
+    "date": "Mon, 17 Aug 2026 03:10:32 GMT",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "91",
+    "connection": "keep-alive",
+    "x-powered-by": "Express",
+    "etag": "W/\"5b-tKjxwd43vE9UWYmuMHn2Lp9+d+k\""
+  },
+  "body": {
+    "userID": "56d79293-6d65-4156-a128-30242d0b91bb",
+    "username": "dup_user_wxyeyfgw",
+    "books": []
+  }
+}
