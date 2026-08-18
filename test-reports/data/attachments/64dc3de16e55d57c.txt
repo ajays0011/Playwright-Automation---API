@@ -1,0 +1,8 @@
+[03:06:34.921] info: [Fixtures] API Client created
+[03:06:34.922] debug: [TestHelpers] Generated unique username: dup_user_figy58ky
+[03:06:34.922] info: [AccountService] Creating user: dup_user_figy58ky
+[03:06:34.923] info: [ApiClient] ➡️  REQUEST
+[03:06:36.621] info: [ApiClient] ⬅️  RESPONSE
+[03:06:36.634] info: [AccountService] Creating user: dup_user_figy58ky
+[03:06:36.635] info: [ApiClient] ➡️  REQUEST
+[03:06:37.550] warn: [ApiClient] ⬅️  RESPONSE

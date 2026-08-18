@@ -1,4 +1,0 @@
-[03:10:28.739] info: [Fixtures] API Client created
-[03:10:28.740] info: [AccountService] Generating token for user: auth_pos_c4id4voh
-[03:10:28.740] info: [ApiClient] ➡️  REQUEST
-[03:10:29.726] info: [ApiClient] ⬅️  RESPONSE
