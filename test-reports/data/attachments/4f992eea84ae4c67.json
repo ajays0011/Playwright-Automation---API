@@ -1,8 +1,0 @@
-{
-  "method": "GET",
-  "url": "/BookStore/v1/Book",
-  "headers": {
-    "Content-Type": "application/json",
-    "Accept": "application/json"
-  }
-}

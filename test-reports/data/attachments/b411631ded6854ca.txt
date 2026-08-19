@@ -1,5 +1,0 @@
-[03:06:59.271] info: [Fixtures] API Client created
-[03:06:59.272] debug: [TestHelpers] Generated unique username: create_headers_vfpavz2l
-[03:06:59.272] info: [AccountService] Creating user: create_headers_vfpavz2l
-[03:06:59.272] info: [ApiClient] ➡️  REQUEST
-[03:07:00.211] info: [ApiClient] ⬅️  RESPONSE
