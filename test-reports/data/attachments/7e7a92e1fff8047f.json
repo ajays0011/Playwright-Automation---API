@@ -1,0 +1,18 @@
+{
+  "statusCode": 201,
+  "responseTime": "1034ms",
+  "headers": {
+    "server": "nginx/1.17.10 (Ubuntu)",
+    "date": "Thu, 20 Aug 2026 03:09:27 GMT",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "89",
+    "connection": "keep-alive",
+    "x-powered-by": "Express",
+    "etag": "W/\"59-efqlLY2MgT/seaxCGR6Ebat86eg\""
+  },
+  "body": {
+    "userID": "22e66467-24ae-4d75-9765-6191d4211b2c",
+    "username": "del_nx_lshzgecy",
+    "books": []
+  }
+}
