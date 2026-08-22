@@ -1,0 +1,25 @@
+[03:06:22.214] debug: [TestHelpers] Generated unique username: testuser_eo7ntbty
+[03:06:22.214] info: [AccountService] Creating user: testuser_eo7ntbty
+[03:06:22.214] info: [ApiClient] ➡️  REQUEST
+[03:06:23.026] info: [ApiClient] ⬅️  RESPONSE
+[03:06:23.027] info: [AccountService] User created successfully: e7ba286c-fc18-4cfd-bf67-190b2cdf548a
+[03:06:23.027] info: [Fixtures] Test user created: e7ba286c-fc18-4cfd-bf67-190b2cdf548a (testuser_eo7ntbty)
+[03:06:23.027] debug: [TokenManager] Custom credentials set for user: testuser_eo7ntbty
+[03:06:23.027] info: [TokenManager] Generating token for user: testuser_eo7ntbty on dev
+[03:06:23.813] info: [TokenManager] Token generated successfully. Expires: 2026-08-29T03:06:23.081Z
+[03:06:23.813] debug: [ApiClient] Auth token set: eyJhbGciOiJIUzI1NiIs...
+[03:06:23.814] debug: [TokenManager] Custom credentials set for user: testuser_eo7ntbty
+[03:06:23.814] info: [TokenManager] Generating token for user: testuser_eo7ntbty on dev
+[03:06:24.969] error: [TokenManager] Token generation failed: Status=200, Body={"token":null,"expires":null,"status":"Failed","result":"User authorization failed."}
+[03:06:24.970] error: [TokenManager] Token generation failed
+[03:06:24.970] warn: [Fixtures] Failed to generate token for authenticated client. Some tests may fail.
+[03:06:24.970] info: [BookStoreService] Deleting all books for user: invalid-user-id
+[03:06:24.971] info: [ApiClient] ➡️  REQUEST
+[03:06:25.076] warn: [ApiClient] ⬅️  RESPONSE
+[03:06:25.080] debug: [TokenManager] Custom credentials set for user: testuser_eo7ntbty
+[03:06:25.080] debug: [TokenManager] Returning cached token
+[03:06:25.080] debug: [ApiClient] Auth token set: eyJhbGciOiJIUzI1NiIs...
+[03:06:25.080] info: [AccountService] Deleting user: e7ba286c-fc18-4cfd-bf67-190b2cdf548a
+[03:06:25.080] info: [ApiClient] ➡️  REQUEST
+[03:06:26.357] info: [ApiClient] ⬅️  RESPONSE
+[03:06:26.359] info: [Fixtures] Test user cleaned up: e7ba286c-fc18-4cfd-bf67-190b2cdf548a

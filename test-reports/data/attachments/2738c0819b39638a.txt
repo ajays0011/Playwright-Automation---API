@@ -1,0 +1,33 @@
+[03:06:05.782] debug: [TestHelpers] Generated unique username: testuser_9jiygpab
+[03:06:05.782] info: [AccountService] Creating user: testuser_9jiygpab
+[03:06:05.783] info: [ApiClient] ➡️  REQUEST
+[03:06:06.765] info: [ApiClient] ⬅️  RESPONSE
+[03:06:06.766] info: [AccountService] User created successfully: f438f672-386e-4d88-a99c-c8779398f2b8
+[03:06:06.766] info: [Fixtures] Test user created: f438f672-386e-4d88-a99c-c8779398f2b8 (testuser_9jiygpab)
+[03:06:06.767] debug: [TokenManager] Custom credentials set for user: testuser_9jiygpab
+[03:06:06.767] info: [TokenManager] Generating token for user: testuser_9jiygpab on dev
+[03:06:07.815] info: [TokenManager] Token generated successfully. Expires: 2026-08-29T03:06:06.822Z
+[03:06:07.815] debug: [ApiClient] Auth token set: eyJhbGciOiJIUzI1NiIs...
+[03:06:07.816] debug: [TokenManager] Custom credentials set for user: testuser_9jiygpab
+[03:06:07.816] info: [TokenManager] Generating token for user: testuser_9jiygpab on dev
+[03:06:08.952] info: [TokenManager] Token generated successfully. Expires: 2026-08-29T03:06:07.871Z
+[03:06:08.952] debug: [ApiClient] Auth token set: eyJhbGciOiJIUzI1NiIs...
+[03:06:08.952] info: [Fixtures] Authenticated API Client created with token for user: testuser_9jiygpab
+[03:06:08.953] info: [BookStoreService] Adding books to user collection
+[03:06:08.953] info: [ApiClient] ➡️  REQUEST
+[03:06:09.069] warn: [ApiClient] ⬅️  RESPONSE
+[03:06:09.070] warn: [ApiClient] Received 401, attempting token refresh and retry...
+[03:06:09.070] info: [TokenManager] Forcing token refresh
+[03:06:09.070] debug: [TokenManager] Token invalidated
+[03:06:09.071] info: [TokenManager] Generating token for user: testuser_9jiygpab on dev
+[03:06:09.925] info: [TokenManager] Token generated successfully. Expires: 2026-08-29T03:06:09.125Z
+[03:06:09.925] debug: [ApiClient] Auth token set: eyJhbGciOiJIUzI1NiIs...
+[03:06:09.926] info: [ApiClient] ➡️  REQUEST
+[03:06:10.030] warn: [ApiClient] ⬅️  RESPONSE
+[03:06:10.033] debug: [TokenManager] Custom credentials set for user: testuser_9jiygpab
+[03:06:10.033] debug: [TokenManager] Returning cached token
+[03:06:10.034] debug: [ApiClient] Auth token set: eyJhbGciOiJIUzI1NiIs...
+[03:06:10.034] info: [AccountService] Deleting user: f438f672-386e-4d88-a99c-c8779398f2b8
+[03:06:10.034] info: [ApiClient] ➡️  REQUEST
+[03:06:10.974] warn: [ApiClient] ⬅️  RESPONSE
+[03:06:10.976] info: [Fixtures] Test user cleaned up: f438f672-386e-4d88-a99c-c8779398f2b8

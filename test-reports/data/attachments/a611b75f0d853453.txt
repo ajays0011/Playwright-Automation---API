@@ -1,0 +1,33 @@
+[03:04:48.642] debug: [TestHelpers] Generated unique username: testuser_z9sznaki
+[03:04:48.642] info: [AccountService] Creating user: testuser_z9sznaki
+[03:04:48.642] info: [ApiClient] ➡️  REQUEST
+[03:04:49.911] info: [ApiClient] ⬅️  RESPONSE
+[03:04:49.912] info: [AccountService] User created successfully: 4b783cd1-a5fe-47fa-9835-3bdb88fc37bb
+[03:04:49.913] info: [Fixtures] Test user created: 4b783cd1-a5fe-47fa-9835-3bdb88fc37bb (testuser_z9sznaki)
+[03:04:49.913] debug: [TokenManager] Custom credentials set for user: testuser_z9sznaki
+[03:04:49.913] info: [TokenManager] Generating token for user: testuser_z9sznaki on dev
+[03:04:51.217] info: [TokenManager] Token generated successfully. Expires: 2026-08-29T03:04:49.987Z
+[03:04:51.217] debug: [ApiClient] Auth token set: eyJhbGciOiJIUzI1NiIs...
+[03:04:51.218] debug: [TokenManager] Custom credentials set for user: testuser_z9sznaki
+[03:04:51.218] info: [TokenManager] Generating token for user: testuser_z9sznaki on dev
+[03:04:53.892] info: [TokenManager] Token generated successfully. Expires: 2026-08-29T03:04:51.277Z
+[03:04:53.892] debug: [ApiClient] Auth token set: eyJhbGciOiJIUzI1NiIs...
+[03:04:53.892] info: [Fixtures] Authenticated API Client created with token for user: testuser_z9sznaki
+[03:04:53.893] info: [AccountService] Getting user profile: invalid-uuid
+[03:04:53.894] info: [ApiClient] ➡️  REQUEST
+[03:04:54.011] warn: [ApiClient] ⬅️  RESPONSE
+[03:04:54.013] warn: [ApiClient] Received 401, attempting token refresh and retry...
+[03:04:54.013] info: [TokenManager] Forcing token refresh
+[03:04:54.013] debug: [TokenManager] Token invalidated
+[03:04:54.013] info: [TokenManager] Generating token for user: testuser_z9sznaki on dev
+[03:04:55.646] info: [TokenManager] Token generated successfully. Expires: 2026-08-29T03:04:54.074Z
+[03:04:55.646] debug: [ApiClient] Auth token set: eyJhbGciOiJIUzI1NiIs...
+[03:04:55.646] info: [ApiClient] ➡️  REQUEST
+[03:04:55.762] warn: [ApiClient] ⬅️  RESPONSE
+[03:04:55.765] debug: [TokenManager] Custom credentials set for user: testuser_z9sznaki
+[03:04:55.766] debug: [TokenManager] Returning cached token
+[03:04:55.766] debug: [ApiClient] Auth token set: eyJhbGciOiJIUzI1NiIs...
+[03:04:55.766] info: [AccountService] Deleting user: 4b783cd1-a5fe-47fa-9835-3bdb88fc37bb
+[03:04:55.766] info: [ApiClient] ➡️  REQUEST
+[03:04:57.537] warn: [ApiClient] ⬅️  RESPONSE
+[03:04:57.538] info: [Fixtures] Test user cleaned up: 4b783cd1-a5fe-47fa-9835-3bdb88fc37bb

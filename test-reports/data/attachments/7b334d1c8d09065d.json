@@ -1,0 +1,18 @@
+{
+  "statusCode": 201,
+  "responseTime": "1439ms",
+  "headers": {
+    "server": "nginx/1.17.10 (Ubuntu)",
+    "date": "Sat, 22 Aug 2026 03:05:26 GMT",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "93",
+    "connection": "keep-alive",
+    "x-powered-by": "Express",
+    "etag": "W/\"5d-A/jpX7eQLe7ElsJq8NnjO1pWaFY\""
+  },
+  "body": {
+    "userID": "21d877e4-ebc9-4b52-ba5e-aeb4c9a0cd17",
+    "username": "delete_pos_kzslvrra",
+    "books": []
+  }
+}
