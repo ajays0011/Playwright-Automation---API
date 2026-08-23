@@ -1,0 +1,12 @@
+{
+  "method": "POST",
+  "url": "/Account/v1/User",
+  "headers": {
+    "Content-Type": "application/json",
+    "Accept": "application/json"
+  },
+  "body": {
+    "userName": "replace_bk_y3vsenbc",
+    "password": "Test@7lt66x2f1A"
+  }
+}

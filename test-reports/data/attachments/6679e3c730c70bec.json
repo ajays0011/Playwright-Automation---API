@@ -1,0 +1,20 @@
+{
+  "statusCode": 201,
+  "responseTime": "1025ms",
+  "headers": {
+    "server": "nginx/1.17.10 (Ubuntu)",
+    "date": "Sun, 23 Aug 2026 03:15:54 GMT",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "36",
+    "connection": "keep-alive",
+    "x-powered-by": "Express",
+    "etag": "W/\"24-2U7DK3nFgERO/LjA8mW3SiqYyFc\""
+  },
+  "body": {
+    "books": [
+      {
+        "isbn": "9781449325862"
+      }
+    ]
+  }
+}
