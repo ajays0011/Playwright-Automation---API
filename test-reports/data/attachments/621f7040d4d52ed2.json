@@ -1,0 +1,30 @@
+{
+  "statusCode": 200,
+  "responseTime": "491ms",
+  "headers": {
+    "server": "nginx/1.17.10 (Ubuntu)",
+    "date": "Mon, 24 Aug 2026 03:16:27 GMT",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "676",
+    "connection": "keep-alive",
+    "x-powered-by": "Express",
+    "etag": "W/\"2a4-M6ulfC8KwR1nPQ5y0CwEku1r3Ho\""
+  },
+  "body": {
+    "userId": "8f86d778-c649-4271-9309-119a148403af",
+    "username": "replace_bk_xoopc7sv",
+    "books": [
+      {
+        "isbn": "9781449331818",
+        "title": "Learning JavaScript Design Patterns",
+        "subTitle": "A JavaScript and jQuery Developer's Guide",
+        "author": "Addy Osmani",
+        "publish_date": "2020-06-04T09:11:40.000Z",
+        "publisher": "O'Reilly Media",
+        "pages": 254,
+        "description": "With Learning JavaScript Design Patterns, you'll learn how to write beautiful, structured, and maintainable JavaScript by applying classical and modern design patterns to the language. If you want to keep your code efficient, more manageable, and up-to-da",
+        "website": "http://www.addyosmani.com/resources/essentialjsdesignpatterns/book/"
+      }
+    ]
+  }
+}

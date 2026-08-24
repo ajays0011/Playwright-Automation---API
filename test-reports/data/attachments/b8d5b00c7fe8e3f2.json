@@ -1,0 +1,18 @@
+{
+  "statusCode": 201,
+  "responseTime": "1525ms",
+  "headers": {
+    "server": "nginx/1.17.10 (Ubuntu)",
+    "date": "Mon, 24 Aug 2026 03:14:33 GMT",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "93",
+    "connection": "keep-alive",
+    "x-powered-by": "Express",
+    "etag": "W/\"5d-hvixHE2lo3PAzI5LELTHvUUUWaI\""
+  },
+  "body": {
+    "userID": "63ca585f-04b8-4d30-9be7-cc62e64c3286",
+    "username": "create_pos_tvl4sied",
+    "books": []
+  }
+}
