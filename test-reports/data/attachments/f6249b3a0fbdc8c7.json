@@ -1,0 +1,12 @@
+{
+  "method": "POST",
+  "url": "/Account/v1/GenerateToken",
+  "headers": {
+    "Content-Type": "application/json",
+    "Accept": "application/json"
+  },
+  "body": {
+    "userName": "auth_pos_laqm9nj6",
+    "password": "Test@yleg6u6i1A"
+  }
+}

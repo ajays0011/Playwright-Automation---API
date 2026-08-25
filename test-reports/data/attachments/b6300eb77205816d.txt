@@ -1,5 +1,0 @@
-[03:14:31.958] info: [Fixtures] API Client created
-[03:14:31.959] debug: [TestHelpers] Generated unique username: create_pos_tvl4sied
-[03:14:31.960] info: [AccountService] Creating user: create_pos_tvl4sied
-[03:14:31.961] info: [ApiClient] ➡️  REQUEST
-[03:14:33.487] info: [ApiClient] ⬅️  RESPONSE
