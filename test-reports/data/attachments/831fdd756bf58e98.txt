@@ -1,6 +1,0 @@
-[03:09:43.338] info: [Fixtures] API Client created
-[03:09:43.339] info: [AccountService] Generating token for user: auth_pos_laqm9nj6
-[03:09:43.339] info: [ApiClient] ➡️  REQUEST
-[03:09:44.419] info: [ApiClient] ⬅️  RESPONSE
-[03:09:44.426] debug: [SchemaValidator] SchemaValidator initialized with AJV
-[03:09:44.453] debug: [SchemaValidator] Schema validation passed

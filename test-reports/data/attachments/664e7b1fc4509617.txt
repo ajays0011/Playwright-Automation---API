@@ -1,5 +1,0 @@
-[03:09:53.167] info: [Fixtures] API Client created
-[03:09:53.167] info: [AccountService] Checking authorization for user: auth_chk_thumq5pa
-[03:09:53.167] info: [ApiClient] ➡️  REQUEST
-[03:09:53.949] info: [ApiClient] ⬅️  RESPONSE
-[03:09:53.952] debug: [SchemaValidator] Schema validation passed

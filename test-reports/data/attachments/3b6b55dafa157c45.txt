@@ -1,5 +1,0 @@
-[03:09:49.633] debug: [TestHelpers] Generated unique username: auth_chk_thumq5pa
-[03:09:52.359] info: [Fixtures] API Client created
-[03:09:52.360] info: [AccountService] Checking authorization for user: auth_chk_thumq5pa
-[03:09:52.360] info: [ApiClient] ➡️  REQUEST
-[03:09:53.151] info: [ApiClient] ⬅️  RESPONSE
