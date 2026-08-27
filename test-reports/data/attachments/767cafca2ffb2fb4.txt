@@ -1,4 +1,0 @@
-[03:17:48.087] info: [Fixtures] API Client created
-[03:17:48.088] info: [BookStoreService] Fetching all books
-[03:17:48.088] info: [ApiClient] ➡️  REQUEST
-[03:17:48.236] info: [ApiClient] ⬅️  RESPONSE
