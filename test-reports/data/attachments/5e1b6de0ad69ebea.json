@@ -1,0 +1,30 @@
+{
+  "statusCode": 200,
+  "responseTime": "181ms",
+  "headers": {
+    "server": "nginx/1.17.10 (Ubuntu)",
+    "date": "Fri, 28 Aug 2026 14:20:44 GMT",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "640",
+    "connection": "keep-alive",
+    "x-powered-by": "Express",
+    "etag": "W/\"280-vY/MomI+u7m3tFPYfonI41OmS1A\""
+  },
+  "body": {
+    "userId": "8cbc9124-3c8f-4c62-92f2-a020879f52f4",
+    "username": "add_book_fl3mrjcx",
+    "books": [
+      {
+        "isbn": "9781449325862",
+        "title": "Git Pocket Guide",
+        "subTitle": "A Working Introduction",
+        "author": "Richard E. Silverman",
+        "publish_date": "2020-06-04T08:48:39.000Z",
+        "publisher": "O'Reilly Media",
+        "pages": 234,
+        "description": "This pocket guide is the perfect on-the-job companion to Git, the distributed version control system. It provides a compact, readable introduction to Git for new users, as well as a reference to common commands and procedures for those of you with Git exp",
+        "website": "http://chimera.labs.oreilly.com/books/1230000000561/index.html"
+      }
+    ]
+  }
+}

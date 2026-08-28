@@ -1,0 +1,18 @@
+{
+  "statusCode": 201,
+  "responseTime": "1594ms",
+  "headers": {
+    "server": "nginx/1.17.10 (Ubuntu)",
+    "date": "Fri, 28 Aug 2026 14:19:37 GMT",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "93",
+    "connection": "keep-alive",
+    "x-powered-by": "Express",
+    "etag": "W/\"5d-r/sb++oC9bXVi/QtmMTYHLchsuA\""
+  },
+  "body": {
+    "userID": "ce65ac3c-8807-4660-9254-25c132b6ea8d",
+    "username": "delete_pos_ddwxdokq",
+    "books": []
+  }
+}

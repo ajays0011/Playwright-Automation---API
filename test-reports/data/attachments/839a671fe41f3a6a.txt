@@ -1,0 +1,4 @@
+[14:20:00.974] info: [Fixtures] API Client created
+[14:20:00.974] info: [BookStoreService] Fetching book with ISBN: 9781449325862
+[14:20:00.974] info: [ApiClient] ➡️  REQUEST
+[14:20:01.060] info: [ApiClient] ⬅️  RESPONSE

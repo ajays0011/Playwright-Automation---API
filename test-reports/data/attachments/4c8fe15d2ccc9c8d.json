@@ -1,0 +1,19 @@
+{
+  "statusCode": 200,
+  "responseTime": "1547ms",
+  "headers": {
+    "server": "nginx/1.17.10 (Ubuntu)",
+    "date": "Fri, 28 Aug 2026 14:15:35 GMT",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "85",
+    "connection": "keep-alive",
+    "x-powered-by": "Express",
+    "etag": "W/\"55-uDqoBYBzbvMfwcbBiE9kdrLOtHY\""
+  },
+  "body": {
+    "token": null,
+    "expires": null,
+    "status": "Failed",
+    "result": "User authorization failed."
+  }
+}

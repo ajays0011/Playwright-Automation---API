@@ -1,0 +1,17 @@
+{
+  "statusCode": 400,
+  "responseTime": "85ms",
+  "headers": {
+    "server": "nginx/1.17.10 (Ubuntu)",
+    "date": "Fri, 28 Aug 2026 14:20:26 GMT",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "57",
+    "connection": "keep-alive",
+    "x-powered-by": "Express",
+    "etag": "W/\"39-gVIbSo3amubi2v5tYEfDRxHDrwM\""
+  },
+  "body": {
+    "code": "1207",
+    "message": "Collection of books required."
+  }
+}
