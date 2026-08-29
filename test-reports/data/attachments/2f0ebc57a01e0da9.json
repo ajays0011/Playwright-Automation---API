@@ -1,9 +1,0 @@
-{
-  "method": "DELETE",
-  "url": "/Account/v1/User/b4a1c2d6-cb5a-45e7-a394-383ef948bf81",
-  "headers": {
-    "Content-Type": "application/json",
-    "Accept": "application/json",
-    "Authorization": "Bearer invalid-token"
-  }
-}

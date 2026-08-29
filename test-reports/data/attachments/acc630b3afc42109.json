@@ -1,0 +1,17 @@
+{
+  "method": "POST",
+  "url": "/BookStore/v1/Books",
+  "headers": {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+    "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyTmFtZSI6InJtX2Jvb2tfOWZ3NncwNDciLCJwYXNzd29yZCI6IlRlc3RAZXFlYm52aDAxQSIsImlhdCI6MTc4Nzk5Mzk3OX0.ypgdEN7epYUAEgD38j8GUQOGM0oB5cX1bgpnMiUJ-l4"
+  },
+  "body": {
+    "userId": "549f01d3-66d6-4e9f-a163-76b0c9c59087",
+    "collectionOfIsbns": [
+      {
+        "isbn": "9781449325862"
+      }
+    ]
+  }
+}

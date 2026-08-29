@@ -1,0 +1,17 @@
+{
+  "statusCode": 400,
+  "responseTime": "87ms",
+  "headers": {
+    "server": "nginx/1.17.10 (Ubuntu)",
+    "date": "Sat, 29 Aug 2026 08:57:54 GMT",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "59",
+    "connection": "keep-alive",
+    "x-powered-by": "Express",
+    "etag": "W/\"3b-kfIAtNk1nsLmMi3OoOPrbSi9YOU\""
+  },
+  "body": {
+    "code": "1200",
+    "message": "UserName and Password required."
+  }
+}
