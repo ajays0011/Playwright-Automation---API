@@ -1,0 +1,18 @@
+{
+  "statusCode": 201,
+  "responseTime": "1178ms",
+  "headers": {
+    "server": "nginx/1.17.10 (Ubuntu)",
+    "date": "Sun, 30 Aug 2026 08:16:27 GMT",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "97",
+    "connection": "keep-alive",
+    "x-powered-by": "Express",
+    "etag": "W/\"61-SR+YrF+HHCQm0IPdlHeMmoXkqhI\""
+  },
+  "body": {
+    "userID": "51634d8c-a005-415b-995d-a28b29dcb723",
+    "username": "create_headers_dunu26sr",
+    "books": []
+  }
+}

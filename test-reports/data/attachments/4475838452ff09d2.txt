@@ -1,0 +1,4 @@
+[08:16:01.931] info: [Fixtures] API Client created
+[08:16:01.932] info: [AccountService] Checking authorization for user: auth_chk_u56n2wsx
+[08:16:01.932] info: [ApiClient] ➡️  REQUEST
+[08:16:02.191] info: [ApiClient] ⬅️  RESPONSE
