@@ -1,5 +1,0 @@
-[08:16:26.730] info: [Fixtures] API Client created
-[08:16:26.730] debug: [TestHelpers] Generated unique username: create_headers_dunu26sr
-[08:16:26.731] info: [AccountService] Creating user: create_headers_dunu26sr
-[08:16:26.731] info: [ApiClient] ➡️  REQUEST
-[08:16:27.910] info: [ApiClient] ⬅️  RESPONSE
