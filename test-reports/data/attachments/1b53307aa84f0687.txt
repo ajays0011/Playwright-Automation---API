@@ -1,5 +1,0 @@
-[08:36:24.011] info: [Fixtures] API Client created
-[08:36:24.012] info: [AccountService] Checking authorization for user: auth_chk_vpsbh1nl
-[08:36:24.012] info: [ApiClient] ➡️  REQUEST
-[08:36:26.252] info: [ApiClient] ⬅️  RESPONSE
-[08:36:26.258] debug: [SchemaValidator] Schema validation passed
