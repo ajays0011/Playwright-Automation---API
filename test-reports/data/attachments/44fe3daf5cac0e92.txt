@@ -1,0 +1,27 @@
+[07:06:13.395] debug: [TestHelpers] Generated unique username: testuser_pm5fu7uv
+[07:06:13.396] info: [AccountService] Creating user: testuser_pm5fu7uv
+[07:06:13.396] info: [ApiClient] ➡️  REQUEST
+[07:06:15.387] info: [ApiClient] ⬅️  RESPONSE
+[07:06:15.398] info: [AccountService] User created successfully: 9c45c159-ad59-4547-a6fd-0386644ab00f
+[07:06:15.398] info: [Fixtures] Test user created: 9c45c159-ad59-4547-a6fd-0386644ab00f (testuser_pm5fu7uv)
+[07:06:15.399] debug: [TokenManager] Custom credentials set for user: testuser_pm5fu7uv
+[07:06:15.399] info: [TokenManager] Generating token for user: testuser_pm5fu7uv on dev
+[07:06:17.120] info: [TokenManager] Token generated successfully. Expires: 2026-09-09T07:06:15.443Z
+[07:06:17.120] debug: [ApiClient] Auth token set: eyJhbGciOiJIUzI1NiIs...
+[07:06:17.121] debug: [TokenManager] Custom credentials set for user: testuser_pm5fu7uv
+[07:06:17.122] info: [TokenManager] Generating token for user: testuser_pm5fu7uv on dev
+[07:06:18.985] info: [TokenManager] Token generated successfully. Expires: 2026-09-09T07:06:17.166Z
+[07:06:18.985] debug: [ApiClient] Auth token set: eyJhbGciOiJIUzI1NiIs...
+[07:06:18.986] info: [Fixtures] Authenticated API Client created with token for user: testuser_pm5fu7uv
+[07:06:18.987] info: [AccountService] Getting user profile: 9c45c159-ad59-4547-a6fd-0386644ab00f
+[07:06:18.987] info: [ApiClient] ➡️  REQUEST
+[07:06:21.258] info: [ApiClient] ⬅️  RESPONSE
+[07:06:21.268] debug: [SchemaValidator] SchemaValidator initialized with AJV
+[07:06:21.299] debug: [SchemaValidator] Schema validation passed
+[07:06:21.301] debug: [TokenManager] Custom credentials set for user: testuser_pm5fu7uv
+[07:06:21.301] debug: [TokenManager] Returning cached token
+[07:06:21.302] debug: [ApiClient] Auth token set: eyJhbGciOiJIUzI1NiIs...
+[07:06:21.302] info: [AccountService] Deleting user: 9c45c159-ad59-4547-a6fd-0386644ab00f
+[07:06:21.302] info: [ApiClient] ➡️  REQUEST
+[07:06:21.742] warn: [ApiClient] ⬅️  RESPONSE
+[07:06:21.744] info: [Fixtures] Test user cleaned up: 9c45c159-ad59-4547-a6fd-0386644ab00f

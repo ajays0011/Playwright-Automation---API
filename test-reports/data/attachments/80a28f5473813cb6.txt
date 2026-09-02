@@ -1,4 +1,0 @@
-[07:42:59.811] info: [Fixtures] API Client created
-[07:42:59.812] info: [AccountService] Generating token for user: auth_pos_1cs3pdfp
-[07:42:59.812] info: [ApiClient] ➡️  REQUEST
-[07:43:14.637] info: [ApiClient] ⬅️  RESPONSE

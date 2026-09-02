@@ -1,0 +1,14 @@
+[07:06:27.740] info: [Fixtures] API Client created
+[07:06:27.741] debug: [TestHelpers] Generated unique username: delete_verify_a73t0xcq
+[07:06:27.741] info: [AccountService] Creating user: delete_verify_a73t0xcq
+[07:06:27.742] info: [ApiClient] ➡️  REQUEST
+[07:06:29.796] info: [ApiClient] ⬅️  RESPONSE
+[07:06:29.805] debug: [TokenManager] Custom credentials set for user: delete_verify_a73t0xcq
+[07:06:29.805] info: [TokenManager] Generating token for user: delete_verify_a73t0xcq on dev
+[07:06:33.514] info: [TokenManager] Token generated successfully. Expires: 2026-09-09T07:06:29.850Z
+[07:06:33.514] info: [AccountService] Deleting user: 37456a99-48d0-45ed-86f8-bedac4aa8226
+[07:06:33.514] info: [ApiClient] ➡️  REQUEST
+[07:06:36.476] info: [ApiClient] ⬅️  RESPONSE
+[07:06:36.480] info: [AccountService] Getting user profile: 37456a99-48d0-45ed-86f8-bedac4aa8226
+[07:06:36.480] info: [ApiClient] ➡️  REQUEST
+[07:06:36.581] warn: [ApiClient] ⬅️  RESPONSE

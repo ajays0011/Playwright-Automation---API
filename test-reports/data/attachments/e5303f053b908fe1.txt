@@ -1,0 +1,5 @@
+[07:06:00.618] info: [Fixtures] API Client created
+[07:06:00.620] debug: [TestHelpers] Generated unique username: create_pos_kadv2mft
+[07:06:00.620] info: [AccountService] Creating user: create_pos_kadv2mft
+[07:06:00.621] info: [ApiClient] ➡️  REQUEST
+[07:06:02.789] info: [ApiClient] ⬅️  RESPONSE

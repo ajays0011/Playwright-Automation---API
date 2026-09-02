@@ -1,5 +1,0 @@
-[07:42:21.281] debug: [TestHelpers] Generated unique username: auth_pos_1cs3pdfp
-[07:42:25.819] info: [Fixtures] API Client created
-[07:42:25.821] info: [AccountService] Generating token for user: auth_pos_1cs3pdfp
-[07:42:25.822] info: [ApiClient] ➡️  REQUEST
-[07:42:34.364] info: [ApiClient] ⬅️  RESPONSE

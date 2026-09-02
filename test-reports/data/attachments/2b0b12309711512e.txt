@@ -1,0 +1,20 @@
+[07:07:17.045] debug: [TestHelpers] Generated unique username: add_dup_urmofonj
+[07:07:17.045] info: [AccountService] Creating user: add_dup_urmofonj
+[07:07:17.045] info: [ApiClient] ➡️  REQUEST
+[07:07:18.933] info: [ApiClient] ⬅️  RESPONSE
+[07:07:18.935] debug: [TokenManager] Custom credentials set for user: add_dup_urmofonj
+[07:07:18.935] info: [TokenManager] Generating token for user: add_dup_urmofonj on dev
+[07:07:21.150] info: [TokenManager] Token generated successfully. Expires: 2026-09-09T07:07:18.980Z
+[07:07:21.150] debug: [ApiClient] Auth token set: eyJhbGciOiJIUzI1NiIs...
+[07:07:21.150] info: [BookStoreService] Adding books to user collection
+[07:07:21.150] info: [ApiClient] ➡️  REQUEST
+[07:07:23.589] info: [ApiClient] ⬅️  RESPONSE
+[07:07:23.590] info: [BookStoreService] Adding books to user collection
+[07:07:23.590] info: [ApiClient] ➡️  REQUEST
+[07:07:23.850] warn: [ApiClient] ⬅️  RESPONSE
+[07:07:23.854] info: [BookStoreService] Deleting all books for user: 51f50859-6385-4286-88ba-8c0351f92073
+[07:07:23.854] info: [ApiClient] ➡️  REQUEST
+[07:07:24.405] info: [ApiClient] ⬅️  RESPONSE
+[07:07:24.407] info: [AccountService] Deleting user: 51f50859-6385-4286-88ba-8c0351f92073
+[07:07:24.407] info: [ApiClient] ➡️  REQUEST
+[07:07:24.924] info: [ApiClient] ⬅️  RESPONSE
