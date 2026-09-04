@@ -1,4 +1,0 @@
-[07:09:05.148] info: [Fixtures] API Client created
-[07:09:05.149] info: [AccountService] Checking authorization for user: auth_chk_q8yq94f5
-[07:09:05.149] info: [ApiClient] ➡️  REQUEST
-[07:09:06.479] info: [ApiClient] ⬅️  RESPONSE

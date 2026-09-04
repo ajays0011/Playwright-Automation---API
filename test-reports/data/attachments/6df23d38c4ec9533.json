@@ -1,0 +1,17 @@
+{
+  "statusCode": 401,
+  "responseTime": "158ms",
+  "headers": {
+    "server": "nginx/1.17.10 (Ubuntu)",
+    "date": "Fri, 04 Sep 2026 07:18:05 GMT",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "48",
+    "connection": "keep-alive",
+    "x-powered-by": "Express",
+    "etag": "W/\"30-zoAnprTpYK9HmHYlpHOx6U+Br2A\""
+  },
+  "body": {
+    "code": "1207",
+    "message": "User Id not correct!"
+  }
+}
