@@ -1,0 +1,18 @@
+{
+  "statusCode": 200,
+  "responseTime": "2590ms",
+  "headers": {
+    "server": "nginx/1.17.10 (Ubuntu)",
+    "date": "Sat, 05 Sep 2026 06:59:11 GMT",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "90",
+    "connection": "keep-alive",
+    "x-powered-by": "Express",
+    "etag": "W/\"5a-iNm/SAFvX9y9Qg7ojx5CjT0deZU\""
+  },
+  "body": {
+    "userId": "c8840749-4e34-479a-ba80-30645fbbac17",
+    "username": "rm_book_meio2kxt",
+    "books": []
+  }
+}
