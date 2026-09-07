@@ -1,5 +1,0 @@
-[07:06:56.689] debug: [TestHelpers] Generated unique username: auth_pos_symkioup
-[07:06:57.624] info: [Fixtures] API Client created
-[07:06:57.624] info: [AccountService] Generating token for user: auth_pos_symkioup
-[07:06:57.625] info: [ApiClient] ➡️  REQUEST
-[07:06:58.867] info: [ApiClient] ⬅️  RESPONSE
