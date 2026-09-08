@@ -1,0 +1,18 @@
+{
+  "statusCode": 201,
+  "responseTime": "1242ms",
+  "headers": {
+    "server": "nginx/1.17.10 (Ubuntu)",
+    "date": "Tue, 08 Sep 2026 07:16:13 GMT",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "91",
+    "connection": "keep-alive",
+    "x-powered-by": "Express",
+    "etag": "W/\"5b-mob/tO0aWDyVTieuPriLmZh2WP4\""
+  },
+  "body": {
+    "userID": "1b5741df-b141-4d4f-882d-932f7f3856c6",
+    "username": "add_time_dvlmrpng",
+    "books": []
+  }
+}

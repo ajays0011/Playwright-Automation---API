@@ -1,3 +1,0 @@
-[07:21:46.897] info: [Fixtures] API Client created
-[07:21:46.898] info: [ApiClient] ➡️  REQUEST
-[07:22:46.953] error: [ApiClient] Request failed: GET /BookStore/v1/Book

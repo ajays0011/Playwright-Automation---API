@@ -1,0 +1,4 @@
+[07:14:02.939] info: [Fixtures] API Client created
+[07:14:02.940] info: [AccountService] Checking authorization for user: nonexistent_user_xyz_12345
+[07:14:02.940] info: [ApiClient] ➡️  REQUEST
+[07:14:04.703] warn: [ApiClient] ⬅️  RESPONSE

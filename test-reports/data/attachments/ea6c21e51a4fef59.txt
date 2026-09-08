@@ -1,0 +1,17 @@
+[07:16:12.530] debug: [TestHelpers] Generated unique username: add_time_dvlmrpng
+[07:16:12.530] info: [AccountService] Creating user: add_time_dvlmrpng
+[07:16:12.530] info: [ApiClient] ➡️  REQUEST
+[07:16:13.772] info: [ApiClient] ⬅️  RESPONSE
+[07:16:13.774] debug: [TokenManager] Custom credentials set for user: add_time_dvlmrpng
+[07:16:13.774] info: [TokenManager] Generating token for user: add_time_dvlmrpng on dev
+[07:16:15.007] info: [TokenManager] Token generated successfully. Expires: 2026-09-15T07:16:13.845Z
+[07:16:15.007] debug: [ApiClient] Auth token set: eyJhbGciOiJIUzI1NiIs...
+[07:16:15.007] info: [BookStoreService] Adding books to user collection
+[07:16:15.007] info: [ApiClient] ➡️  REQUEST
+[07:16:15.409] info: [ApiClient] ⬅️  RESPONSE
+[07:16:15.410] info: [BookStoreService] Deleting all books for user: 1b5741df-b141-4d4f-882d-932f7f3856c6
+[07:16:15.410] info: [ApiClient] ➡️  REQUEST
+[07:16:15.934] info: [ApiClient] ⬅️  RESPONSE
+[07:16:15.935] info: [AccountService] Deleting user: 1b5741df-b141-4d4f-882d-932f7f3856c6
+[07:16:15.935] info: [ApiClient] ➡️  REQUEST
+[07:16:16.444] info: [ApiClient] ⬅️  RESPONSE

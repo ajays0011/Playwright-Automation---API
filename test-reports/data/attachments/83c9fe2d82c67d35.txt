@@ -1,0 +1,4 @@
+[07:14:04.722] info: [Fixtures] API Client created
+[07:14:04.723] info: [AccountService] Checking authorization for user: auth_chk_fup4poek
+[07:14:04.723] info: [ApiClient] ➡️  REQUEST
+[07:14:05.398] info: [ApiClient] ⬅️  RESPONSE

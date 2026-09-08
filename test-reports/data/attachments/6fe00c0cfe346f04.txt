@@ -1,0 +1,14 @@
+[07:15:23.475] debug: [TestHelpers] Generated unique username: add_bad_isbn_vekbuuf4
+[07:15:23.476] info: [AccountService] Creating user: add_bad_isbn_vekbuuf4
+[07:15:23.476] info: [ApiClient] ➡️  REQUEST
+[07:15:25.007] info: [ApiClient] ⬅️  RESPONSE
+[07:15:25.009] debug: [TokenManager] Custom credentials set for user: add_bad_isbn_vekbuuf4
+[07:15:25.010] info: [TokenManager] Generating token for user: add_bad_isbn_vekbuuf4 on dev
+[07:15:26.289] info: [TokenManager] Token generated successfully. Expires: 2026-09-15T07:15:25.083Z
+[07:15:26.289] debug: [ApiClient] Auth token set: eyJhbGciOiJIUzI1NiIs...
+[07:15:26.290] info: [BookStoreService] Adding books to user collection
+[07:15:26.290] info: [ApiClient] ➡️  REQUEST
+[07:15:26.654] warn: [ApiClient] ⬅️  RESPONSE
+[07:15:26.657] info: [AccountService] Deleting user: eefd8bdb-d575-4432-96fd-c001da82515e
+[07:15:26.658] info: [ApiClient] ➡️  REQUEST
+[07:15:27.205] info: [ApiClient] ⬅️  RESPONSE
