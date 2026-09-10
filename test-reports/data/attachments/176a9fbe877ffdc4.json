@@ -1,0 +1,9 @@
+{
+  "method": "DELETE",
+  "url": "/BookStore/v1/Books",
+  "headers": {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+    "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyTmFtZSI6InRlc3R1c2VyX2tldnhlOHVmIiwicGFzc3dvcmQiOiJUZXN0QGExY29yYXl6MUEiLCJpYXQiOjE3ODkwMjQ3NTh9.Q29t51ho8O_3ydF_qdiCmjNq1goUGg2omOssKvDwEWM"
+  }
+}
