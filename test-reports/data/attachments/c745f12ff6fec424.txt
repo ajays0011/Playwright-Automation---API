@@ -1,5 +1,0 @@
-[07:17:29.201] info: [Fixtures] API Client created
-[07:17:29.202] info: [BookStoreService] Fetching all books
-[07:17:29.202] info: [ApiClient] ➡️  REQUEST
-[07:17:29.326] info: [ApiClient] ⬅️  RESPONSE
-[07:17:29.332] debug: [SchemaValidator] Schema validation passed

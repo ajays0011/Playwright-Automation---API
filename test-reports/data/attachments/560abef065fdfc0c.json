@@ -1,0 +1,18 @@
+{
+  "statusCode": 200,
+  "responseTime": "242ms",
+  "headers": {
+    "server": "nginx/1.17.10 (Ubuntu)",
+    "date": "Sat, 12 Sep 2026 07:10:35 GMT",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "92",
+    "connection": "keep-alive",
+    "x-powered-by": "Express",
+    "etag": "W/\"5c-2L0tWV0+qsB05YG7aqh19HDlhdU\""
+  },
+  "body": {
+    "userId": "0061059c-9b0e-4d8a-8a08-b5ef96ee2433",
+    "username": "clear_all_2omav434",
+    "books": []
+  }
+}
