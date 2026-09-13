@@ -1,0 +1,4 @@
+[07:27:15.822] info: [Fixtures] API Client created
+[07:27:15.823] info: [AccountService] Generating token for user: auth_pos_vptvuf13
+[07:27:15.823] info: [ApiClient] ➡️  REQUEST
+[07:27:17.389] info: [ApiClient] ⬅️  RESPONSE
