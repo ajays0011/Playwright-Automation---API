@@ -1,0 +1,5 @@
+[07:52:28.374] info: [Fixtures] API Client created
+[07:52:28.375] info: [AccountService] Checking authorization for user: auth_chk_df8bc4tr
+[07:52:28.375] info: [ApiClient] ➡️  REQUEST
+[07:52:28.645] info: [ApiClient] ⬅️  RESPONSE
+[07:52:28.648] debug: [SchemaValidator] Schema validation passed

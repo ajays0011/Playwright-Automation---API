@@ -1,0 +1,18 @@
+{
+  "statusCode": 201,
+  "responseTime": "981ms",
+  "headers": {
+    "server": "nginx/1.17.10 (Ubuntu)",
+    "date": "Mon, 14 Sep 2026 07:54:21 GMT",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "91",
+    "connection": "keep-alive",
+    "x-powered-by": "Express",
+    "etag": "W/\"5b-3K+lIfkdiW5THr29t3g0zG9j8Ao\""
+  },
+  "body": {
+    "userID": "228cb7e3-92f4-4cbe-a630-5064419c7d7c",
+    "username": "add_book_tmwh87nj",
+    "books": []
+  }
+}
