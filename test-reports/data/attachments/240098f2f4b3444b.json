@@ -1,0 +1,18 @@
+{
+  "statusCode": 201,
+  "responseTime": "1348ms",
+  "headers": {
+    "server": "nginx/1.17.10 (Ubuntu)",
+    "date": "Tue, 15 Sep 2026 07:38:39 GMT",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "96",
+    "connection": "keep-alive",
+    "x-powered-by": "Express",
+    "etag": "W/\"60-CoaRIVx8GhHSr8TVA6JlnNkDgds\""
+  },
+  "body": {
+    "userID": "c07d408b-a120-447f-a1df-3d4b381a2360",
+    "username": "delete_verify_iywbmtab",
+    "books": []
+  }
+}

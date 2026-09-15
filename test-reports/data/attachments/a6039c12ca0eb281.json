@@ -1,0 +1,12 @@
+{
+  "method": "DELETE",
+  "url": "/BookStore/v1/Book",
+  "headers": {
+    "Content-Type": "application/json",
+    "Accept": "application/json"
+  },
+  "body": {
+    "isbn": "9781449325862",
+    "userId": "0eb76891-053a-4b52-9ca2-f5bc17377d99"
+  }
+}

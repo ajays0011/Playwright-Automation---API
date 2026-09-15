@@ -1,0 +1,18 @@
+{
+  "statusCode": 201,
+  "responseTime": "487ms",
+  "headers": {
+    "server": "nginx/1.17.10 (Ubuntu)",
+    "date": "Tue, 15 Sep 2026 07:39:45 GMT",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "91",
+    "connection": "keep-alive",
+    "x-powered-by": "Express",
+    "etag": "W/\"5b-4x5E5Iyz8AC4i46Q0/ElitlYtO8\""
+  },
+  "body": {
+    "userID": "cd1183a5-7251-463c-ac08-fe9dbb5f6ffe",
+    "username": "add_book_mkikusdc",
+    "books": []
+  }
+}

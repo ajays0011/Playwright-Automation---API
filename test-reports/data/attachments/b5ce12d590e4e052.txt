@@ -1,0 +1,14 @@
+[07:38:38.329] info: [Fixtures] API Client created
+[07:38:38.330] debug: [TestHelpers] Generated unique username: delete_verify_iywbmtab
+[07:38:38.330] info: [AccountService] Creating user: delete_verify_iywbmtab
+[07:38:38.330] info: [ApiClient] ➡️  REQUEST
+[07:38:39.679] info: [ApiClient] ⬅️  RESPONSE
+[07:38:39.687] debug: [TokenManager] Custom credentials set for user: delete_verify_iywbmtab
+[07:38:39.687] info: [TokenManager] Generating token for user: delete_verify_iywbmtab on dev
+[07:38:40.976] info: [TokenManager] Token generated successfully. Expires: 2026-09-22T07:38:39.750Z
+[07:38:40.976] info: [AccountService] Deleting user: c07d408b-a120-447f-a1df-3d4b381a2360
+[07:38:40.977] info: [ApiClient] ➡️  REQUEST
+[07:38:43.631] info: [ApiClient] ⬅️  RESPONSE
+[07:38:43.632] info: [AccountService] Getting user profile: c07d408b-a120-447f-a1df-3d4b381a2360
+[07:38:43.633] info: [ApiClient] ➡️  REQUEST
+[07:38:43.766] warn: [ApiClient] ⬅️  RESPONSE

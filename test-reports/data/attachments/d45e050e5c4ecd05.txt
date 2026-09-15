@@ -1,0 +1,7 @@
+[07:38:11.982] info: [Fixtures] API Client created
+[07:38:11.983] debug: [TestHelpers] Generated unique username: create_schema_62oki1ql
+[07:38:11.983] info: [AccountService] Creating user: create_schema_62oki1ql
+[07:38:11.983] info: [ApiClient] ➡️  REQUEST
+[07:38:13.196] info: [ApiClient] ⬅️  RESPONSE
+[07:38:13.202] debug: [SchemaValidator] SchemaValidator initialized with AJV
+[07:38:13.232] debug: [SchemaValidator] Schema validation passed
