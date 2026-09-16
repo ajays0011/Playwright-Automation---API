@@ -1,5 +1,0 @@
-[07:37:39.736] debug: [TestHelpers] Generated unique username: auth_pos_vxepat23
-[07:37:41.273] info: [Fixtures] API Client created
-[07:37:41.275] info: [AccountService] Generating token for user: auth_pos_vxepat23
-[07:37:41.275] info: [ApiClient] ➡️  REQUEST
-[07:37:42.508] info: [ApiClient] ⬅️  RESPONSE

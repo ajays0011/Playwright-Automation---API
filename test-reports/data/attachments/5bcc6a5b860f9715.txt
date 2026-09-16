@@ -1,4 +1,0 @@
-[07:37:46.666] info: [Fixtures] API Client created
-[07:37:46.667] info: [AccountService] Generating token for user: auth_pos_vxepat23
-[07:37:46.667] info: [ApiClient] ➡️  REQUEST
-[07:37:48.250] info: [ApiClient] ⬅️  RESPONSE

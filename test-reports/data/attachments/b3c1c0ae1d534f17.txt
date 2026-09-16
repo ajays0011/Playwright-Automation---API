@@ -1,5 +1,0 @@
-[07:38:14.841] info: [Fixtures] API Client created
-[07:38:14.842] debug: [TestHelpers] Generated unique username: create_time_0ptyopa5
-[07:38:14.842] info: [AccountService] Creating user: create_time_0ptyopa5
-[07:38:14.843] info: [ApiClient] ➡️  REQUEST
-[07:38:16.472] info: [ApiClient] ⬅️  RESPONSE

@@ -1,0 +1,20 @@
+[07:38:16.941] debug: [TestHelpers] Generated unique username: add_dup_ts629237
+[07:38:16.941] info: [AccountService] Creating user: add_dup_ts629237
+[07:38:16.941] info: [ApiClient] ➡️  REQUEST
+[07:38:17.868] info: [ApiClient] ⬅️  RESPONSE
+[07:38:17.870] debug: [TokenManager] Custom credentials set for user: add_dup_ts629237
+[07:38:17.870] info: [TokenManager] Generating token for user: add_dup_ts629237 on dev
+[07:38:19.142] info: [TokenManager] Token generated successfully. Expires: 2026-09-23T07:38:17.948Z
+[07:38:19.142] debug: [ApiClient] Auth token set: eyJhbGciOiJIUzI1NiIs...
+[07:38:19.142] info: [BookStoreService] Adding books to user collection
+[07:38:19.143] info: [ApiClient] ➡️  REQUEST
+[07:38:19.605] info: [ApiClient] ⬅️  RESPONSE
+[07:38:19.607] info: [BookStoreService] Adding books to user collection
+[07:38:19.607] info: [ApiClient] ➡️  REQUEST
+[07:38:19.871] warn: [ApiClient] ⬅️  RESPONSE
+[07:38:19.873] info: [BookStoreService] Deleting all books for user: 971b2dd2-f3a7-4ff7-83a2-e94ddbf471c7
+[07:38:19.874] info: [ApiClient] ➡️  REQUEST
+[07:38:20.515] info: [ApiClient] ⬅️  RESPONSE
+[07:38:20.516] info: [AccountService] Deleting user: 971b2dd2-f3a7-4ff7-83a2-e94ddbf471c7
+[07:38:20.516] info: [ApiClient] ➡️  REQUEST
+[07:38:21.085] info: [ApiClient] ⬅️  RESPONSE

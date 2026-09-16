@@ -1,5 +1,0 @@
-[07:38:10.535] info: [Fixtures] API Client created
-[07:38:10.536] debug: [TestHelpers] Generated unique username: create_pos_ozvsaut4
-[07:38:10.536] info: [AccountService] Creating user: create_pos_ozvsaut4
-[07:38:10.537] info: [ApiClient] ➡️  REQUEST
-[07:38:11.937] info: [ApiClient] ⬅️  RESPONSE
