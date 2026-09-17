@@ -1,0 +1,25 @@
+[07:33:21.582] debug: [TestHelpers] Generated unique username: testuser_cwww90nw
+[07:33:21.582] info: [AccountService] Creating user: testuser_cwww90nw
+[07:33:21.582] info: [ApiClient] ➡️  REQUEST
+[07:33:22.804] info: [ApiClient] ⬅️  RESPONSE
+[07:33:22.806] info: [AccountService] User created successfully: ca54ab03-e739-4f83-acad-856afa004658
+[07:33:22.806] info: [Fixtures] Test user created: ca54ab03-e739-4f83-acad-856afa004658 (testuser_cwww90nw)
+[07:33:22.807] debug: [TokenManager] Custom credentials set for user: testuser_cwww90nw
+[07:33:22.807] info: [TokenManager] Generating token for user: testuser_cwww90nw on dev
+[07:33:24.152] info: [TokenManager] Token generated successfully. Expires: 2026-09-24T07:33:22.854Z
+[07:33:24.152] debug: [ApiClient] Auth token set: eyJhbGciOiJIUzI1NiIs...
+[07:33:24.153] debug: [TokenManager] Custom credentials set for user: testuser_cwww90nw
+[07:33:24.153] info: [TokenManager] Generating token for user: testuser_cwww90nw on dev
+[07:33:27.281] info: [TokenManager] Token generated successfully. Expires: 2026-09-24T07:33:24.203Z
+[07:33:27.282] debug: [ApiClient] Auth token set: eyJhbGciOiJIUzI1NiIs...
+[07:33:27.282] info: [Fixtures] Authenticated API Client created with token for user: testuser_cwww90nw
+[07:33:27.283] info: [AccountService] Getting user profile: ca54ab03-e739-4f83-acad-856afa004658
+[07:33:27.283] info: [ApiClient] ➡️  REQUEST
+[07:33:28.244] info: [ApiClient] ⬅️  RESPONSE
+[07:33:28.247] debug: [TokenManager] Custom credentials set for user: testuser_cwww90nw
+[07:33:28.247] debug: [TokenManager] Returning cached token
+[07:33:28.247] debug: [ApiClient] Auth token set: eyJhbGciOiJIUzI1NiIs...
+[07:33:28.248] info: [AccountService] Deleting user: ca54ab03-e739-4f83-acad-856afa004658
+[07:33:28.248] info: [ApiClient] ➡️  REQUEST
+[07:33:28.445] warn: [ApiClient] ⬅️  RESPONSE
+[07:33:28.446] info: [Fixtures] Test user cleaned up: ca54ab03-e739-4f83-acad-856afa004658

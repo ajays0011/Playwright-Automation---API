@@ -1,0 +1,25 @@
+[07:33:28.219] debug: [TestHelpers] Generated unique username: testuser_blpapp66
+[07:33:28.220] info: [AccountService] Creating user: testuser_blpapp66
+[07:33:28.220] info: [ApiClient] ➡️  REQUEST
+[07:33:29.895] info: [ApiClient] ⬅️  RESPONSE
+[07:33:29.906] info: [AccountService] User created successfully: a8314485-3886-4409-8b32-29d6e30b1ccb
+[07:33:29.907] info: [Fixtures] Test user created: a8314485-3886-4409-8b32-29d6e30b1ccb (testuser_blpapp66)
+[07:33:29.907] debug: [TokenManager] Custom credentials set for user: testuser_blpapp66
+[07:33:29.907] info: [TokenManager] Generating token for user: testuser_blpapp66 on dev
+[07:33:31.606] info: [TokenManager] Token generated successfully. Expires: 2026-09-24T07:33:29.950Z
+[07:33:31.606] debug: [ApiClient] Auth token set: eyJhbGciOiJIUzI1NiIs...
+[07:33:31.607] debug: [TokenManager] Custom credentials set for user: testuser_blpapp66
+[07:33:31.607] info: [TokenManager] Generating token for user: testuser_blpapp66 on dev
+[07:33:34.708] info: [TokenManager] Token generated successfully. Expires: 2026-09-24T07:33:31.648Z
+[07:33:34.708] debug: [ApiClient] Auth token set: eyJhbGciOiJIUzI1NiIs...
+[07:33:34.709] info: [Fixtures] Authenticated API Client created with token for user: testuser_blpapp66
+[07:33:34.710] info: [AccountService] Deleting user: b0e8b12b-605c-4cc7-b745-01477cb0e2aa
+[07:33:34.710] info: [ApiClient] ➡️  REQUEST
+[07:33:34.805] info: [ApiClient] ⬅️  RESPONSE
+[07:33:34.815] debug: [TokenManager] Custom credentials set for user: testuser_blpapp66
+[07:33:34.815] debug: [TokenManager] Returning cached token
+[07:33:34.816] debug: [ApiClient] Auth token set: eyJhbGciOiJIUzI1NiIs...
+[07:33:34.816] info: [AccountService] Deleting user: a8314485-3886-4409-8b32-29d6e30b1ccb
+[07:33:34.816] info: [ApiClient] ➡️  REQUEST
+[07:33:35.100] warn: [ApiClient] ⬅️  RESPONSE
+[07:33:35.103] info: [Fixtures] Test user cleaned up: a8314485-3886-4409-8b32-29d6e30b1ccb
