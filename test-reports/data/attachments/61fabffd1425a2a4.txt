@@ -1,0 +1,23 @@
+[07:23:49.156] debug: [TestHelpers] Generated unique username: replace_bk_tzyluzsh
+[07:23:49.156] info: [AccountService] Creating user: replace_bk_tzyluzsh
+[07:23:49.156] info: [ApiClient] ➡️  REQUEST
+[07:23:49.602] info: [ApiClient] ⬅️  RESPONSE
+[07:23:49.604] debug: [TokenManager] Custom credentials set for user: replace_bk_tzyluzsh
+[07:23:49.604] info: [TokenManager] Generating token for user: replace_bk_tzyluzsh on dev
+[07:23:50.865] info: [TokenManager] Token generated successfully. Expires: 2026-09-25T07:23:49.644Z
+[07:23:50.865] debug: [ApiClient] Auth token set: eyJhbGciOiJIUzI1NiIs...
+[07:23:50.865] info: [BookStoreService] Adding books to user collection
+[07:23:50.865] info: [ApiClient] ➡️  REQUEST
+[07:23:52.135] info: [ApiClient] ⬅️  RESPONSE
+[07:23:52.136] info: [BookStoreService] Replacing book 9781449325862 in collection
+[07:23:52.136] info: [ApiClient] ➡️  REQUEST
+[07:23:52.596] info: [ApiClient] ⬅️  RESPONSE
+[07:23:52.598] info: [AccountService] Getting user profile: 4d575a59-1637-49dd-85f8-96c0aa857aa5
+[07:23:52.598] info: [ApiClient] ➡️  REQUEST
+[07:23:52.834] info: [ApiClient] ⬅️  RESPONSE
+[07:23:52.836] info: [BookStoreService] Deleting all books for user: 4d575a59-1637-49dd-85f8-96c0aa857aa5
+[07:23:52.836] info: [ApiClient] ➡️  REQUEST
+[07:23:53.287] info: [ApiClient] ⬅️  RESPONSE
+[07:23:53.288] info: [AccountService] Deleting user: 4d575a59-1637-49dd-85f8-96c0aa857aa5
+[07:23:53.288] info: [ApiClient] ➡️  REQUEST
+[07:23:53.728] info: [ApiClient] ⬅️  RESPONSE
