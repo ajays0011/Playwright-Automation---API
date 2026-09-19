@@ -1,0 +1,18 @@
+{
+  "statusCode": 200,
+  "responseTime": "280ms",
+  "headers": {
+    "server": "nginx/1.17.10 (Ubuntu)",
+    "date": "Sat, 19 Sep 2026 07:21:18 GMT",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "92",
+    "connection": "keep-alive",
+    "x-powered-by": "Express",
+    "etag": "W/\"5c-p46H05BP/VI9lTw9bp65vODcDtc\""
+  },
+  "body": {
+    "userId": "4074dc81-6be1-4285-b7d6-e0e2d38db1fa",
+    "username": "clear_all_hookun37",
+    "books": []
+  }
+}

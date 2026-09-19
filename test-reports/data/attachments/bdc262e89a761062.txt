@@ -1,0 +1,5 @@
+[07:18:49.773] debug: [TestHelpers] Generated unique username: auth_chk_al09x2vy
+[07:18:52.411] info: [Fixtures] API Client created
+[07:18:52.412] info: [AccountService] Checking authorization for user: auth_chk_al09x2vy
+[07:18:52.412] info: [ApiClient] ➡️  REQUEST
+[07:18:53.330] info: [ApiClient] ⬅️  RESPONSE
