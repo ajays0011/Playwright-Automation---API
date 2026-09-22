@@ -1,4 +1,0 @@
-[07:53:03.950] info: [Fixtures] API Client created
-[07:53:03.951] info: [AccountService] Generating token for user: nonexistent_user_abc_999
-[07:53:03.952] info: [ApiClient] ➡️  REQUEST
-[07:53:05.619] info: [ApiClient] ⬅️  RESPONSE
