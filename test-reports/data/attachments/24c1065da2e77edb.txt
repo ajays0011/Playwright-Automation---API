@@ -1,7 +1,0 @@
-[07:43:25.303] info: [Fixtures] API Client created
-[07:43:25.304] debug: [TestHelpers] Generated unique username: create_schema_vcimllcd
-[07:43:25.304] info: [AccountService] Creating user: create_schema_vcimllcd
-[07:43:25.305] info: [ApiClient] ➡️  REQUEST
-[07:43:26.730] info: [ApiClient] ⬅️  RESPONSE
-[07:43:26.737] debug: [SchemaValidator] SchemaValidator initialized with AJV
-[07:43:26.766] debug: [SchemaValidator] Schema validation passed

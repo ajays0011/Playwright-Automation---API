@@ -1,0 +1,4 @@
+[07:42:15.038] info: [Fixtures] API Client created
+[07:42:15.039] info: [AccountService] Checking authorization for user: auth_chk_dgfwold9
+[07:42:15.039] info: [ApiClient] ➡️  REQUEST
+[07:42:15.560] info: [ApiClient] ⬅️  RESPONSE

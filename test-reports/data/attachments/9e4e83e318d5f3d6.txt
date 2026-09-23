@@ -1,5 +1,0 @@
-[07:42:59.501] debug: [TestHelpers] Generated unique username: auth_pos_wbjdewnx
-[07:43:01.128] info: [Fixtures] API Client created
-[07:43:01.129] info: [AccountService] Generating token for user: auth_pos_wbjdewnx
-[07:43:01.130] info: [ApiClient] ➡️  REQUEST
-[07:43:03.565] info: [ApiClient] ⬅️  RESPONSE
