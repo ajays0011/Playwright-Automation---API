@@ -1,0 +1,7 @@
+[07:30:45.960] debug: [TestHelpers] Generated unique username: auth_pos_ylq8f2m1
+[07:30:47.254] info: [Fixtures] API Client created
+[07:30:47.255] info: [AccountService] Generating token for user: auth_pos_ylq8f2m1
+[07:30:47.256] info: [ApiClient] ➡️  REQUEST
+[07:30:48.828] info: [ApiClient] ⬅️  RESPONSE
+[07:30:48.845] debug: [SchemaValidator] SchemaValidator initialized with AJV
+[07:30:48.888] debug: [SchemaValidator] Schema validation passed

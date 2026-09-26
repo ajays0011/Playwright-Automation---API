@@ -1,0 +1,8 @@
+{
+  "method": "GET",
+  "url": "/Account/v1/User/97575c5c-cd1d-4641-ad30-4d3543e4c4ea",
+  "headers": {
+    "Content-Type": "application/json",
+    "Accept": "application/json"
+  }
+}

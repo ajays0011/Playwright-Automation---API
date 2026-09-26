@@ -1,4 +1,0 @@
-[07:36:47.447] info: [Fixtures] API Client created
-[07:36:47.448] info: [AccountService] Checking authorization for user: auth_chk_dgxsjr5d
-[07:36:47.448] info: [ApiClient] ➡️  REQUEST
-[07:36:47.798] info: [ApiClient] ⬅️  RESPONSE

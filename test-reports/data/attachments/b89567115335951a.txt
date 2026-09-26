@@ -1,0 +1,14 @@
+[07:31:39.351] info: [Fixtures] API Client created
+[07:31:39.351] debug: [TestHelpers] Generated unique username: delete_verify_w2vdvdhm
+[07:31:39.352] info: [AccountService] Creating user: delete_verify_w2vdvdhm
+[07:31:39.352] info: [ApiClient] ➡️  REQUEST
+[07:31:40.099] info: [ApiClient] ⬅️  RESPONSE
+[07:31:40.109] debug: [TokenManager] Custom credentials set for user: delete_verify_w2vdvdhm
+[07:31:40.109] info: [TokenManager] Generating token for user: delete_verify_w2vdvdhm on dev
+[07:31:41.508] info: [TokenManager] Token generated successfully. Expires: 2026-10-03T07:31:40.149Z
+[07:31:41.508] info: [AccountService] Deleting user: 0d6204f2-1f6f-472c-adf6-144c994da528
+[07:31:41.508] info: [ApiClient] ➡️  REQUEST
+[07:31:42.221] info: [ApiClient] ⬅️  RESPONSE
+[07:31:42.222] info: [AccountService] Getting user profile: 0d6204f2-1f6f-472c-adf6-144c994da528
+[07:31:42.223] info: [ApiClient] ➡️  REQUEST
+[07:31:42.307] warn: [ApiClient] ⬅️  RESPONSE

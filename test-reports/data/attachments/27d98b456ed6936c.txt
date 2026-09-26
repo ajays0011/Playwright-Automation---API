@@ -1,0 +1,3 @@
+[07:27:39.687] info: [Fixtures] API Client created
+[07:27:39.687] info: [ApiClient] ➡️  REQUEST
+[07:28:39.697] error: [ApiClient] Request failed: POST /Account/v1/GenerateToken

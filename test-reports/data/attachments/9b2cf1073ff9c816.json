@@ -1,0 +1,18 @@
+{
+  "statusCode": 201,
+  "responseTime": "1011ms",
+  "headers": {
+    "server": "nginx/1.17.10 (Ubuntu)",
+    "date": "Sat, 26 Sep 2026 07:33:03 GMT",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "90",
+    "connection": "keep-alive",
+    "x-powered-by": "Express",
+    "etag": "W/\"5a-pd0oImvWEuWw2QhQJqVejPM6doQ\""
+  },
+  "body": {
+    "userID": "aa81202a-b95c-4b8d-9195-b5d8c33773a9",
+    "username": "rm_book_o21skewd",
+    "books": []
+  }
+}
