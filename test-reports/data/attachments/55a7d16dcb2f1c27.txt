@@ -1,0 +1,6 @@
+[08:37:07.590] info: [Fixtures] API Client created
+[08:37:07.591] info: [AccountService] Checking authorization for user: auth_chk_zby4cndo
+[08:37:07.592] info: [ApiClient] ➡️  REQUEST
+[08:37:08.197] info: [ApiClient] ⬅️  RESPONSE
+[08:37:08.203] debug: [SchemaValidator] SchemaValidator initialized with AJV
+[08:37:08.232] debug: [SchemaValidator] Schema validation passed

@@ -1,0 +1,5 @@
+[08:37:03.163] debug: [TestHelpers] Generated unique username: auth_chk_zby4cndo
+[08:37:06.585] info: [Fixtures] API Client created
+[08:37:06.586] info: [AccountService] Checking authorization for user: auth_chk_zby4cndo
+[08:37:06.587] info: [ApiClient] ➡️  REQUEST
+[08:37:07.572] info: [ApiClient] ⬅️  RESPONSE
