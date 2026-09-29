@@ -1,0 +1,20 @@
+[08:22:15.279] debug: [TestHelpers] Generated unique username: repl_nx_04390ju8
+[08:22:15.279] info: [AccountService] Creating user: repl_nx_04390ju8
+[08:22:15.279] info: [ApiClient] ➡️  REQUEST
+[08:22:16.700] info: [ApiClient] ⬅️  RESPONSE
+[08:22:16.701] debug: [TokenManager] Custom credentials set for user: repl_nx_04390ju8
+[08:22:16.701] info: [TokenManager] Generating token for user: repl_nx_04390ju8 on dev
+[08:22:18.207] info: [TokenManager] Token generated successfully. Expires: 2026-10-06T08:22:16.738Z
+[08:22:18.207] debug: [ApiClient] Auth token set: eyJhbGciOiJIUzI1NiIs...
+[08:22:18.207] info: [BookStoreService] Adding books to user collection
+[08:22:18.208] info: [ApiClient] ➡️  REQUEST
+[08:22:18.453] info: [ApiClient] ⬅️  RESPONSE
+[08:22:18.455] info: [BookStoreService] Replacing book 9781449325862 in collection
+[08:22:18.455] info: [ApiClient] ➡️  REQUEST
+[08:22:18.542] warn: [ApiClient] ⬅️  RESPONSE
+[08:22:18.544] info: [BookStoreService] Deleting all books for user: fe964ed6-769c-49f0-9627-1868323243ee
+[08:22:18.544] info: [ApiClient] ➡️  REQUEST
+[08:22:19.135] info: [ApiClient] ⬅️  RESPONSE
+[08:22:19.137] info: [AccountService] Deleting user: fe964ed6-769c-49f0-9627-1868323243ee
+[08:22:19.137] info: [ApiClient] ➡️  REQUEST
+[08:22:19.736] info: [ApiClient] ⬅️  RESPONSE

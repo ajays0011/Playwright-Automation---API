@@ -1,0 +1,9 @@
+{
+  "method": "GET",
+  "url": "/Account/v1/User/invalid-uuid",
+  "headers": {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+    "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyTmFtZSI6InRlc3R1c2VyX2Q1NzIxYjh0IiwicGFzc3dvcmQiOiJUZXN0QGR1Y2twZmEzMUEiLCJpYXQiOjE3OTA2NzAwNDN9.ex88mom0hRWoyu78J6BWahpnCSxv9qbKaR-ekNOsT5A"
+  }
+}
