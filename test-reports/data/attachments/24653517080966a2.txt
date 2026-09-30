@@ -1,0 +1,25 @@
+[08:22:31.639] debug: [TestHelpers] Generated unique username: testuser_fexwsfpy
+[08:22:31.640] info: [AccountService] Creating user: testuser_fexwsfpy
+[08:22:31.640] info: [ApiClient] ➡️  REQUEST
+[08:22:33.916] info: [ApiClient] ⬅️  RESPONSE
+[08:22:33.928] info: [AccountService] User created successfully: 73b46a1c-8f9c-4ce0-b030-eb16932ca965
+[08:22:33.929] info: [Fixtures] Test user created: 73b46a1c-8f9c-4ce0-b030-eb16932ca965 (testuser_fexwsfpy)
+[08:22:33.929] debug: [TokenManager] Custom credentials set for user: testuser_fexwsfpy
+[08:22:33.930] info: [TokenManager] Generating token for user: testuser_fexwsfpy on dev
+[08:22:36.211] info: [TokenManager] Token generated successfully. Expires: 2026-10-07T08:22:33.977Z
+[08:22:36.211] debug: [ApiClient] Auth token set: eyJhbGciOiJIUzI1NiIs...
+[08:22:36.213] debug: [TokenManager] Custom credentials set for user: testuser_fexwsfpy
+[08:22:36.213] info: [TokenManager] Generating token for user: testuser_fexwsfpy on dev
+[08:22:38.692] info: [TokenManager] Token generated successfully. Expires: 2026-10-07T08:22:36.260Z
+[08:22:38.692] debug: [ApiClient] Auth token set: eyJhbGciOiJIUzI1NiIs...
+[08:22:38.692] info: [Fixtures] Authenticated API Client created with token for user: testuser_fexwsfpy
+[08:22:38.694] info: [AccountService] Getting user profile: 73b46a1c-8f9c-4ce0-b030-eb16932ca965
+[08:22:38.694] info: [ApiClient] ➡️  REQUEST
+[08:22:39.877] info: [ApiClient] ⬅️  RESPONSE
+[08:22:39.888] debug: [TokenManager] Custom credentials set for user: testuser_fexwsfpy
+[08:22:39.888] debug: [TokenManager] Returning cached token
+[08:22:39.888] debug: [ApiClient] Auth token set: eyJhbGciOiJIUzI1NiIs...
+[08:22:39.889] info: [AccountService] Deleting user: 73b46a1c-8f9c-4ce0-b030-eb16932ca965
+[08:22:39.889] info: [ApiClient] ➡️  REQUEST
+[08:22:40.174] warn: [ApiClient] ⬅️  RESPONSE
+[08:22:40.176] info: [Fixtures] Test user cleaned up: 73b46a1c-8f9c-4ce0-b030-eb16932ca965
