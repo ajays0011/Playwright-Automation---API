@@ -1,6 +1,0 @@
-[08:44:31.670] info: [Fixtures] API Client created
-[08:44:31.671] info: [AccountService] Checking authorization for user: auth_chk_5ddp23u6
-[08:44:31.671] info: [ApiClient] ➡️  REQUEST
-[08:44:31.844] info: [ApiClient] ⬅️  RESPONSE
-[08:44:31.850] debug: [SchemaValidator] SchemaValidator initialized with AJV
-[08:44:31.870] debug: [SchemaValidator] Schema validation passed
