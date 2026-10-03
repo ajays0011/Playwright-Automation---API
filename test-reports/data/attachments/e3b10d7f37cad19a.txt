@@ -1,5 +1,0 @@
-[08:22:19.372] debug: [TestHelpers] Generated unique username: auth_pos_urdn8biz
-[08:22:20.673] info: [Fixtures] API Client created
-[08:22:20.675] info: [AccountService] Generating token for user: auth_pos_urdn8biz
-[08:22:20.676] info: [ApiClient] ➡️  REQUEST
-[08:22:21.763] info: [ApiClient] ⬅️  RESPONSE

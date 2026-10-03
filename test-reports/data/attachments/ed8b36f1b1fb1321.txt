@@ -1,0 +1,5 @@
+[07:58:44.892] debug: [TestHelpers] Generated unique username: auth_pos_mq913j50
+[07:58:46.419] info: [Fixtures] API Client created
+[07:58:46.421] info: [AccountService] Generating token for user: auth_pos_mq913j50
+[07:58:46.422] info: [ApiClient] ➡️  REQUEST
+[07:58:47.477] info: [ApiClient] ⬅️  RESPONSE
