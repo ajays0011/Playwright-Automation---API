@@ -1,0 +1,33 @@
+[08:54:11.463] debug: [TestHelpers] Generated unique username: testuser_dleip2t6
+[08:54:11.463] info: [AccountService] Creating user: testuser_dleip2t6
+[08:54:11.463] info: [ApiClient] ➡️  REQUEST
+[08:54:12.885] info: [ApiClient] ⬅️  RESPONSE
+[08:54:12.887] info: [AccountService] User created successfully: 5f27bd4b-9292-493e-9d2c-ac5032c5c340
+[08:54:12.887] info: [Fixtures] Test user created: 5f27bd4b-9292-493e-9d2c-ac5032c5c340 (testuser_dleip2t6)
+[08:54:12.887] debug: [TokenManager] Custom credentials set for user: testuser_dleip2t6
+[08:54:12.887] info: [TokenManager] Generating token for user: testuser_dleip2t6 on dev
+[08:54:14.701] info: [TokenManager] Token generated successfully. Expires: 2026-10-13T08:54:12.935Z
+[08:54:14.701] debug: [ApiClient] Auth token set: eyJhbGciOiJIUzI1NiIs...
+[08:54:14.702] debug: [TokenManager] Custom credentials set for user: testuser_dleip2t6
+[08:54:14.702] info: [TokenManager] Generating token for user: testuser_dleip2t6 on dev
+[08:54:16.411] info: [TokenManager] Token generated successfully. Expires: 2026-10-13T08:54:14.747Z
+[08:54:16.411] debug: [ApiClient] Auth token set: eyJhbGciOiJIUzI1NiIs...
+[08:54:16.411] info: [Fixtures] Authenticated API Client created with token for user: testuser_dleip2t6
+[08:54:16.412] info: [AccountService] Getting user profile: 6633e23b-c4de-4acd-ba2e-36e6f39409d6
+[08:54:16.413] info: [ApiClient] ➡️  REQUEST
+[08:54:16.537] warn: [ApiClient] ⬅️  RESPONSE
+[08:54:16.539] warn: [ApiClient] Received 401, attempting token refresh and retry...
+[08:54:16.539] info: [TokenManager] Forcing token refresh
+[08:54:16.539] debug: [TokenManager] Token invalidated
+[08:54:16.539] info: [TokenManager] Generating token for user: testuser_dleip2t6 on dev
+[08:54:20.495] info: [TokenManager] Token generated successfully. Expires: 2026-10-13T08:54:16.585Z
+[08:54:20.495] debug: [ApiClient] Auth token set: eyJhbGciOiJIUzI1NiIs...
+[08:54:20.495] info: [ApiClient] ➡️  REQUEST
+[08:54:20.608] warn: [ApiClient] ⬅️  RESPONSE
+[08:54:20.611] debug: [TokenManager] Custom credentials set for user: testuser_dleip2t6
+[08:54:20.611] debug: [TokenManager] Returning cached token
+[08:54:20.611] debug: [ApiClient] Auth token set: eyJhbGciOiJIUzI1NiIs...
+[08:54:20.611] info: [AccountService] Deleting user: 5f27bd4b-9292-493e-9d2c-ac5032c5c340
+[08:54:20.612] info: [ApiClient] ➡️  REQUEST
+[08:54:23.115] warn: [ApiClient] ⬅️  RESPONSE
+[08:54:23.117] info: [Fixtures] Test user cleaned up: 5f27bd4b-9292-493e-9d2c-ac5032c5c340
