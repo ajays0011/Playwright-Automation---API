@@ -1,5 +1,0 @@
-[08:54:42.945] info: [Fixtures] API Client created
-[08:54:42.945] debug: [TestHelpers] Generated unique username: create_headers_fattymd3
-[08:54:42.946] info: [AccountService] Creating user: create_headers_fattymd3
-[08:54:42.946] info: [ApiClient] ➡️  REQUEST
-[08:54:46.022] info: [ApiClient] ⬅️  RESPONSE
