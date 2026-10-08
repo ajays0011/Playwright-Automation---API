@@ -1,0 +1,18 @@
+{
+  "statusCode": 201,
+  "responseTime": "2041ms",
+  "headers": {
+    "server": "nginx/1.17.10 (Ubuntu)",
+    "date": "Thu, 08 Oct 2026 08:54:05 GMT",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "90",
+    "connection": "keep-alive",
+    "x-powered-by": "Express",
+    "etag": "W/\"5a-Q+DpXSQU4MBKn2BIUuUEA8iS8wQ\""
+  },
+  "body": {
+    "userID": "4f4dc896-18d0-4a79-bb2e-f5a7f7dd3d89",
+    "username": "rm_book_wpch2fyi",
+    "books": []
+  }
+}
