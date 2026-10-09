@@ -1,0 +1,18 @@
+{
+  "statusCode": 201,
+  "responseTime": "913ms",
+  "headers": {
+    "server": "nginx/1.17.10 (Ubuntu)",
+    "date": "Fri, 09 Oct 2026 08:53:44 GMT",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "91",
+    "connection": "keep-alive",
+    "x-powered-by": "Express",
+    "etag": "W/\"5b-KFqgZGFa/5w9xNspJZj1dkepNyc\""
+  },
+  "body": {
+    "userID": "c26888ba-091f-4628-b1d0-b260afe1f83e",
+    "username": "testuser_pdfgs4ou",
+    "books": []
+  }
+}

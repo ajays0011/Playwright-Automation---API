@@ -1,5 +1,0 @@
-[08:49:37.741] info: [Fixtures] API Client created
-[08:49:37.741] debug: [TestHelpers] Generated unique username: weak_pw4_yfzrnazz
-[08:49:37.741] info: [AccountService] Creating user: weak_pw4_yfzrnazz
-[08:49:37.741] info: [ApiClient] ➡️  REQUEST
-[08:49:37.826] warn: [ApiClient] ⬅️  RESPONSE

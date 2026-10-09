@@ -1,5 +1,0 @@
-[08:50:04.718] info: [Fixtures] API Client created
-[08:50:04.719] debug: [TestHelpers] Generated unique username: create_time_kzsdjmvv
-[08:50:04.719] info: [AccountService] Creating user: create_time_kzsdjmvv
-[08:50:04.719] info: [ApiClient] ➡️  REQUEST
-[08:50:06.336] info: [ApiClient] ⬅️  RESPONSE

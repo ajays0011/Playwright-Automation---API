@@ -1,0 +1,25 @@
+[08:53:43.857] debug: [TestHelpers] Generated unique username: testuser_pdfgs4ou
+[08:53:43.857] info: [AccountService] Creating user: testuser_pdfgs4ou
+[08:53:43.858] info: [ApiClient] ➡️  REQUEST
+[08:53:44.771] info: [ApiClient] ⬅️  RESPONSE
+[08:53:44.773] info: [AccountService] User created successfully: c26888ba-091f-4628-b1d0-b260afe1f83e
+[08:53:44.773] info: [Fixtures] Test user created: c26888ba-091f-4628-b1d0-b260afe1f83e (testuser_pdfgs4ou)
+[08:53:44.773] debug: [TokenManager] Custom credentials set for user: testuser_pdfgs4ou
+[08:53:44.773] info: [TokenManager] Generating token for user: testuser_pdfgs4ou on dev
+[08:53:46.837] info: [TokenManager] Token generated successfully. Expires: 2026-10-16T08:53:44.817Z
+[08:53:46.837] debug: [ApiClient] Auth token set: eyJhbGciOiJIUzI1NiIs...
+[08:53:46.839] debug: [TokenManager] Custom credentials set for user: testuser_pdfgs4ou
+[08:53:46.839] info: [TokenManager] Generating token for user: testuser_pdfgs4ou on dev
+[08:53:51.219] info: [TokenManager] Token generated successfully. Expires: 2026-10-16T08:53:46.887Z
+[08:53:51.219] debug: [ApiClient] Auth token set: eyJhbGciOiJIUzI1NiIs...
+[08:53:51.219] info: [Fixtures] Authenticated API Client created with token for user: testuser_pdfgs4ou
+[08:53:51.220] info: [AccountService] Getting user profile: c26888ba-091f-4628-b1d0-b260afe1f83e
+[08:53:51.221] info: [ApiClient] ➡️  REQUEST
+[08:53:51.583] info: [ApiClient] ⬅️  RESPONSE
+[08:53:51.590] debug: [TokenManager] Custom credentials set for user: testuser_pdfgs4ou
+[08:53:51.590] debug: [TokenManager] Returning cached token
+[08:53:51.590] debug: [ApiClient] Auth token set: eyJhbGciOiJIUzI1NiIs...
+[08:53:51.590] info: [AccountService] Deleting user: c26888ba-091f-4628-b1d0-b260afe1f83e
+[08:53:51.591] info: [ApiClient] ➡️  REQUEST
+[08:53:52.022] warn: [ApiClient] ⬅️  RESPONSE
+[08:53:52.024] info: [Fixtures] Test user cleaned up: c26888ba-091f-4628-b1d0-b260afe1f83e
