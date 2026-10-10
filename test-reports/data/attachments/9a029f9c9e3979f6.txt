@@ -1,0 +1,14 @@
+[08:27:15.279] debug: [TestHelpers] Generated unique username: del_nx_uasrtces
+[08:27:15.279] info: [AccountService] Creating user: del_nx_uasrtces
+[08:27:15.280] info: [ApiClient] ➡️  REQUEST
+[08:27:16.463] info: [ApiClient] ⬅️  RESPONSE
+[08:27:16.465] debug: [TokenManager] Custom credentials set for user: del_nx_uasrtces
+[08:27:16.465] info: [TokenManager] Generating token for user: del_nx_uasrtces on dev
+[08:27:17.758] info: [TokenManager] Token generated successfully. Expires: 2026-10-17T08:27:16.545Z
+[08:27:17.759] debug: [ApiClient] Auth token set: eyJhbGciOiJIUzI1NiIs...
+[08:27:17.759] info: [BookStoreService] Deleting book 9781449325862 from user fc425674-f896-4067-8ad9-6c020610fad1
+[08:27:17.759] info: [ApiClient] ➡️  REQUEST
+[08:27:19.063] warn: [ApiClient] ⬅️  RESPONSE
+[08:27:19.066] info: [AccountService] Deleting user: fc425674-f896-4067-8ad9-6c020610fad1
+[08:27:19.066] info: [ApiClient] ➡️  REQUEST
+[08:27:19.548] info: [ApiClient] ⬅️  RESPONSE

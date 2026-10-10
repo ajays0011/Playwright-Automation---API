@@ -1,0 +1,14 @@
+[08:26:16.934] info: [Fixtures] API Client created
+[08:26:16.935] debug: [TestHelpers] Generated unique username: delete_verify_ajzv1fql
+[08:26:16.935] info: [AccountService] Creating user: delete_verify_ajzv1fql
+[08:26:16.935] info: [ApiClient] ➡️  REQUEST
+[08:26:19.030] info: [ApiClient] ⬅️  RESPONSE
+[08:26:19.039] debug: [TokenManager] Custom credentials set for user: delete_verify_ajzv1fql
+[08:26:19.039] info: [TokenManager] Generating token for user: delete_verify_ajzv1fql on dev
+[08:26:20.449] info: [TokenManager] Token generated successfully. Expires: 2026-10-17T08:26:19.112Z
+[08:26:20.450] info: [AccountService] Deleting user: 33fb14e6-7151-423f-bc4c-9b3972b4d792
+[08:26:20.450] info: [ApiClient] ➡️  REQUEST
+[08:26:22.187] info: [ApiClient] ⬅️  RESPONSE
+[08:26:22.190] info: [AccountService] Getting user profile: 33fb14e6-7151-423f-bc4c-9b3972b4d792
+[08:26:22.190] info: [ApiClient] ➡️  REQUEST
+[08:26:22.337] warn: [ApiClient] ⬅️  RESPONSE

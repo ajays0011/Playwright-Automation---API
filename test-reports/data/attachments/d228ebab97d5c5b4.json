@@ -1,0 +1,19 @@
+{
+  "statusCode": 200,
+  "responseTime": "1928ms",
+  "headers": {
+    "server": "nginx/1.17.10 (Ubuntu)",
+    "date": "Sat, 10 Oct 2026 08:25:21 GMT",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "294",
+    "connection": "keep-alive",
+    "x-powered-by": "Express",
+    "etag": "W/\"126-9aeAL6NliDP2YV9JVrDevLlRPIQ\""
+  },
+  "body": {
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyTmFtZSI6ImF1dGhfcG9zXzNkczdoZjkxIiwicGFzc3dvcmQiOiJUZXN0QGo4aHc3N3ZnMUEiLCJpYXQiOjE3OTE2MjA3MTl9.qv2CNZ103obGWO7wMp-CK7SFXgN9KbenNcNQxFlLaMU",
+    "expires": "2026-10-17T08:25:19.331Z",
+    "status": "Success",
+    "result": "User authorized successfully."
+  }
+}

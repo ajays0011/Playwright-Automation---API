@@ -1,0 +1,12 @@
+{
+  "method": "POST",
+  "url": "/Account/v1/Authorized",
+  "headers": {
+    "Content-Type": "application/json",
+    "Accept": "application/json"
+  },
+  "body": {
+    "userName": "auth_chk_54mm950f",
+    "password": "Test@l8t6pbhh1A"
+  }
+}
