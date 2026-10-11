@@ -1,0 +1,4 @@
+[08:41:33.493] info: [Fixtures] API Client created
+[08:41:33.494] info: [AccountService] Generating token for user: auth_pos_gnimqope
+[08:41:33.494] info: [ApiClient] ➡️  REQUEST
+[08:41:34.733] info: [ApiClient] ⬅️  RESPONSE
