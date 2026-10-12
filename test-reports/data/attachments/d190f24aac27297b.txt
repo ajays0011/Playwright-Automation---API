@@ -1,6 +1,0 @@
-[08:41:29.749] info: [Fixtures] API Client created
-[08:41:29.750] info: [AccountService] Generating token for user: auth_pos_gnimqope
-[08:41:29.750] info: [ApiClient] ➡️  REQUEST
-[08:41:30.923] info: [ApiClient] ⬅️  RESPONSE
-[08:41:30.929] debug: [SchemaValidator] SchemaValidator initialized with AJV
-[08:41:30.958] debug: [SchemaValidator] Schema validation passed

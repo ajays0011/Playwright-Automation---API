@@ -1,0 +1,4 @@
+[09:04:34.312] info: [Fixtures] API Client created
+[09:04:34.312] info: [BookStoreService] Fetching book with ISBN: invalid-isbn
+[09:04:34.313] info: [ApiClient] ➡️  REQUEST
+[09:04:34.477] warn: [ApiClient] ⬅️  RESPONSE
