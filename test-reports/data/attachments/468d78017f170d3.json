@@ -1,0 +1,18 @@
+{
+  "statusCode": 201,
+  "responseTime": "1068ms",
+  "headers": {
+    "server": "nginx/1.17.10 (Ubuntu)",
+    "date": "Tue, 13 Oct 2026 09:19:50 GMT",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "95",
+    "connection": "keep-alive",
+    "x-powered-by": "Express",
+    "etag": "W/\"5f-o9S/KKTYLf8kexAYbfaqDoxGryM\""
+  },
+  "body": {
+    "userID": "0c816620-3259-45ab-a27f-05e2bfe43b3a",
+    "username": "add_bad_isbn_qxgiganl",
+    "books": []
+  }
+}

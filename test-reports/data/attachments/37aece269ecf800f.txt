@@ -1,0 +1,4 @@
+[09:19:41.377] info: [Fixtures] API Client created
+[09:19:41.378] info: [BookStoreService] Fetching book with ISBN: '; DROP TABLE books;--
+[09:19:41.378] info: [ApiClient] ➡️  REQUEST
+[09:19:41.792] warn: [ApiClient] ⬅️  RESPONSE
