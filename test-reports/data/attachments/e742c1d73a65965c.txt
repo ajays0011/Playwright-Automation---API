@@ -1,0 +1,14 @@
+[07:29:32.318] info: [Fixtures] API Client created
+[07:29:32.319] debug: [TestHelpers] Generated unique username: delete_verify_apkca3g6
+[07:29:32.319] info: [AccountService] Creating user: delete_verify_apkca3g6
+[07:29:32.319] info: [ApiClient] ➡️  REQUEST
+[07:29:33.715] info: [ApiClient] ⬅️  RESPONSE
+[07:29:33.725] debug: [TokenManager] Custom credentials set for user: delete_verify_apkca3g6
+[07:29:33.726] info: [TokenManager] Generating token for user: delete_verify_apkca3g6 on dev
+[07:29:36.097] info: [TokenManager] Token generated successfully. Expires: 2026-10-21T07:29:33.798Z
+[07:29:36.098] info: [AccountService] Deleting user: a22b48ed-ce74-4423-9adb-7683f610e4d4
+[07:29:36.098] info: [ApiClient] ➡️  REQUEST
+[07:29:39.023] info: [ApiClient] ⬅️  RESPONSE
+[07:29:39.024] info: [AccountService] Getting user profile: a22b48ed-ce74-4423-9adb-7683f610e4d4
+[07:29:39.025] info: [ApiClient] ➡️  REQUEST
+[07:29:39.193] warn: [ApiClient] ⬅️  RESPONSE

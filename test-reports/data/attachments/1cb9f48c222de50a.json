@@ -1,0 +1,18 @@
+{
+  "statusCode": 200,
+  "responseTime": "370ms",
+  "headers": {
+    "server": "nginx/1.17.10 (Ubuntu)",
+    "date": "Wed, 14 Oct 2026 07:29:44 GMT",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "91",
+    "connection": "keep-alive",
+    "x-powered-by": "Express",
+    "etag": "W/\"5b-h1rt+d+TKNB37vaORN92V++2pOY\""
+  },
+  "body": {
+    "userId": "42abc894-9914-4955-a6d5-48c08096aff5",
+    "username": "testuser_vrpp1dbl",
+    "books": []
+  }
+}

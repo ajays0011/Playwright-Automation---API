@@ -1,0 +1,25 @@
+[07:29:40.145] debug: [TestHelpers] Generated unique username: testuser_vrpp1dbl
+[07:29:40.145] info: [AccountService] Creating user: testuser_vrpp1dbl
+[07:29:40.146] info: [ApiClient] ➡️  REQUEST
+[07:29:41.690] info: [ApiClient] ⬅️  RESPONSE
+[07:29:41.703] info: [AccountService] User created successfully: 42abc894-9914-4955-a6d5-48c08096aff5
+[07:29:41.704] info: [Fixtures] Test user created: 42abc894-9914-4955-a6d5-48c08096aff5 (testuser_vrpp1dbl)
+[07:29:41.704] debug: [TokenManager] Custom credentials set for user: testuser_vrpp1dbl
+[07:29:41.705] info: [TokenManager] Generating token for user: testuser_vrpp1dbl on dev
+[07:29:42.996] info: [TokenManager] Token generated successfully. Expires: 2026-10-21T07:29:41.780Z
+[07:29:42.996] debug: [ApiClient] Auth token set: eyJhbGciOiJIUzI1NiIs...
+[07:29:42.998] debug: [TokenManager] Custom credentials set for user: testuser_vrpp1dbl
+[07:29:42.998] info: [TokenManager] Generating token for user: testuser_vrpp1dbl on dev
+[07:29:44.325] info: [TokenManager] Token generated successfully. Expires: 2026-10-21T07:29:43.088Z
+[07:29:44.325] debug: [ApiClient] Auth token set: eyJhbGciOiJIUzI1NiIs...
+[07:29:44.325] info: [Fixtures] Authenticated API Client created with token for user: testuser_vrpp1dbl
+[07:29:44.326] info: [AccountService] Getting user profile: 42abc894-9914-4955-a6d5-48c08096aff5
+[07:29:44.327] info: [ApiClient] ➡️  REQUEST
+[07:29:44.698] info: [ApiClient] ⬅️  RESPONSE
+[07:29:44.708] debug: [TokenManager] Custom credentials set for user: testuser_vrpp1dbl
+[07:29:44.709] debug: [TokenManager] Returning cached token
+[07:29:44.709] debug: [ApiClient] Auth token set: eyJhbGciOiJIUzI1NiIs...
+[07:29:44.709] info: [AccountService] Deleting user: 42abc894-9914-4955-a6d5-48c08096aff5
+[07:29:44.710] info: [ApiClient] ➡️  REQUEST
+[07:29:44.978] warn: [ApiClient] ⬅️  RESPONSE
+[07:29:44.980] info: [Fixtures] Test user cleaned up: 42abc894-9914-4955-a6d5-48c08096aff5
