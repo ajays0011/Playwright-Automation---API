@@ -1,0 +1,12 @@
+{
+  "method": "POST",
+  "url": "/Account/v1/User",
+  "headers": {
+    "Content-Type": "application/json",
+    "Accept": "application/json"
+  },
+  "body": {
+    "userName": "create_uuid_oqm9xb8h",
+    "password": "Test@c3l6n2p61A"
+  }
+}

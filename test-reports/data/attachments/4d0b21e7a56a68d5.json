@@ -1,0 +1,12 @@
+{
+  "method": "POST",
+  "url": "/Account/v1/User",
+  "headers": {
+    "Content-Type": "application/json",
+    "Accept": "application/json"
+  },
+  "body": {
+    "userName": "create_schema_lr5l9dg3",
+    "password": "Test@d2dj8ixo1A"
+  }
+}

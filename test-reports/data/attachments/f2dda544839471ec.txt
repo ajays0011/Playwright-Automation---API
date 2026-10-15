@@ -1,0 +1,14 @@
+[07:21:17.848] debug: [TestHelpers] Generated unique username: add_empty_tdskljrq
+[07:21:17.848] info: [AccountService] Creating user: add_empty_tdskljrq
+[07:21:17.848] info: [ApiClient] ➡️  REQUEST
+[07:21:19.077] info: [ApiClient] ⬅️  RESPONSE
+[07:21:19.078] debug: [TokenManager] Custom credentials set for user: add_empty_tdskljrq
+[07:21:19.079] info: [TokenManager] Generating token for user: add_empty_tdskljrq on dev
+[07:21:20.167] info: [TokenManager] Token generated successfully. Expires: 2026-10-22T07:21:19.140Z
+[07:21:20.167] debug: [ApiClient] Auth token set: eyJhbGciOiJIUzI1NiIs...
+[07:21:20.167] info: [BookStoreService] Adding books to user collection
+[07:21:20.168] info: [ApiClient] ➡️  REQUEST
+[07:21:20.275] warn: [ApiClient] ⬅️  RESPONSE
+[07:21:20.277] info: [AccountService] Deleting user: ce442a02-0763-47fe-bb0a-5156415decad
+[07:21:20.277] info: [ApiClient] ➡️  REQUEST
+[07:21:21.571] info: [ApiClient] ⬅️  RESPONSE
