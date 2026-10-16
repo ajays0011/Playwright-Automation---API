@@ -1,0 +1,25 @@
+[07:03:05.382] debug: [TestHelpers] Generated unique username: testuser_1pi7hzeb
+[07:03:05.382] info: [AccountService] Creating user: testuser_1pi7hzeb
+[07:03:05.382] info: [ApiClient] ➡️  REQUEST
+[07:03:06.206] info: [ApiClient] ⬅️  RESPONSE
+[07:03:06.207] info: [AccountService] User created successfully: f96b2bb4-4a07-4b47-93e2-9806f5601128
+[07:03:06.208] info: [Fixtures] Test user created: f96b2bb4-4a07-4b47-93e2-9806f5601128 (testuser_1pi7hzeb)
+[07:03:06.208] debug: [TokenManager] Custom credentials set for user: testuser_1pi7hzeb
+[07:03:06.208] info: [TokenManager] Generating token for user: testuser_1pi7hzeb on dev
+[07:03:06.955] info: [TokenManager] Token generated successfully. Expires: 2026-10-23T07:03:06.249Z
+[07:03:06.955] debug: [ApiClient] Auth token set: eyJhbGciOiJIUzI1NiIs...
+[07:03:06.956] debug: [TokenManager] Custom credentials set for user: testuser_1pi7hzeb
+[07:03:06.956] info: [TokenManager] Generating token for user: testuser_1pi7hzeb on dev
+[07:03:08.904] error: [TokenManager] Token generation failed: Status=200, Body={"token":null,"expires":null,"status":"Failed","result":"User authorization failed."}
+[07:03:08.905] error: [TokenManager] Token generation failed
+[07:03:08.905] warn: [Fixtures] Failed to generate token for authenticated client. Some tests may fail.
+[07:03:08.906] info: [AccountService] Getting user profile: f96b2bb4-4a07-4b47-93e2-9806f5601128
+[07:03:08.906] info: [ApiClient] ➡️  REQUEST
+[07:03:08.990] warn: [ApiClient] ⬅️  RESPONSE
+[07:03:08.994] debug: [TokenManager] Custom credentials set for user: testuser_1pi7hzeb
+[07:03:08.994] debug: [TokenManager] Returning cached token
+[07:03:08.994] debug: [ApiClient] Auth token set: eyJhbGciOiJIUzI1NiIs...
+[07:03:08.994] info: [AccountService] Deleting user: f96b2bb4-4a07-4b47-93e2-9806f5601128
+[07:03:08.994] info: [ApiClient] ➡️  REQUEST
+[07:03:11.152] info: [ApiClient] ⬅️  RESPONSE
+[07:03:11.154] info: [Fixtures] Test user cleaned up: f96b2bb4-4a07-4b47-93e2-9806f5601128
