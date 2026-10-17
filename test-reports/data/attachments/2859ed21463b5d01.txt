@@ -1,0 +1,3 @@
+[06:49:44.901] info: [Fixtures] API Client created
+[06:49:44.901] info: [ApiClient] ➡️  REQUEST
+[06:49:44.986] warn: [ApiClient] ⬅️  RESPONSE
