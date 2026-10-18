@@ -1,0 +1,5 @@
+[07:12:53.831] debug: [TestHelpers] Generated unique username: auth_chk_huio14uc
+[07:12:55.653] info: [Fixtures] API Client created
+[07:12:55.654] info: [AccountService] Checking authorization for user: auth_chk_huio14uc
+[07:12:55.654] info: [ApiClient] ➡️  REQUEST
+[07:12:56.105] info: [ApiClient] ⬅️  RESPONSE
