@@ -1,0 +1,6 @@
+[07:40:07.338] info: [Fixtures] API Client created
+[07:40:07.339] debug: [TestHelpers] Generated unique username: create_schema_rtc38w4q
+[07:40:07.339] info: [AccountService] Creating user: create_schema_rtc38w4q
+[07:40:07.339] info: [ApiClient] ➡️  REQUEST
+[07:40:07.787] info: [ApiClient] ⬅️  RESPONSE
+[07:40:07.793] debug: [SchemaValidator] Schema validation passed
