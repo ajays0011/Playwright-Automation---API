@@ -1,0 +1,14 @@
+[07:28:06.735] debug: [TestHelpers] Generated unique username: add_empty_j799al8e
+[07:28:06.736] info: [AccountService] Creating user: add_empty_j799al8e
+[07:28:06.736] info: [ApiClient] ➡️  REQUEST
+[07:28:07.172] info: [ApiClient] ⬅️  RESPONSE
+[07:28:07.173] debug: [TokenManager] Custom credentials set for user: add_empty_j799al8e
+[07:28:07.173] info: [TokenManager] Generating token for user: add_empty_j799al8e on dev
+[07:28:07.965] info: [TokenManager] Token generated successfully. Expires: 2026-10-27T07:28:07.232Z
+[07:28:07.965] debug: [ApiClient] Auth token set: eyJhbGciOiJIUzI1NiIs...
+[07:28:07.965] info: [BookStoreService] Adding books to user collection
+[07:28:07.965] info: [ApiClient] ➡️  REQUEST
+[07:28:08.079] warn: [ApiClient] ⬅️  RESPONSE
+[07:28:08.081] info: [AccountService] Deleting user: 237fdd96-b22a-4ab7-a5a7-309a67e9b25f
+[07:28:08.081] info: [ApiClient] ➡️  REQUEST
+[07:28:09.189] info: [ApiClient] ⬅️  RESPONSE

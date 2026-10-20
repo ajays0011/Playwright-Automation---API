@@ -1,0 +1,9 @@
+{
+  "method": "DELETE",
+  "url": "/Account/v1/User/becca427-ef58-4a3d-bc90-0abef6c5e9b5",
+  "headers": {
+    "Content-Type": "application/json",
+    "Accept": "application/json",
+    "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyTmFtZSI6InRlc3R1c2VyX3Vza2JycGE2IiwicGFzc3dvcmQiOiJUZXN0QGV4dDYzZWJ6MUEiLCJpYXQiOjE3OTI0ODEyNDN9.wHZOnLPW6s01gvTXBvHyKV4Mt2h-cQkCF9i8ecfFJ54"
+  }
+}
