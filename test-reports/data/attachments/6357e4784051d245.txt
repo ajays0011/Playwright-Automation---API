@@ -1,0 +1,33 @@
+[07:28:30.174] debug: [TestHelpers] Generated unique username: testuser_rmbo8pad
+[07:28:30.174] info: [AccountService] Creating user: testuser_rmbo8pad
+[07:28:30.174] info: [ApiClient] ➡️  REQUEST
+[07:28:31.087] info: [ApiClient] ⬅️  RESPONSE
+[07:28:31.088] info: [AccountService] User created successfully: 4db2ed31-4a2a-4e3e-9eef-1c6c6dfe0080
+[07:28:31.088] info: [Fixtures] Test user created: 4db2ed31-4a2a-4e3e-9eef-1c6c6dfe0080 (testuser_rmbo8pad)
+[07:28:31.088] debug: [TokenManager] Custom credentials set for user: testuser_rmbo8pad
+[07:28:31.089] info: [TokenManager] Generating token for user: testuser_rmbo8pad on dev
+[07:28:32.608] info: [TokenManager] Token generated successfully. Expires: 2026-10-28T07:28:31.145Z
+[07:28:32.608] debug: [ApiClient] Auth token set: eyJhbGciOiJIUzI1NiIs...
+[07:28:32.609] debug: [TokenManager] Custom credentials set for user: testuser_rmbo8pad
+[07:28:32.609] info: [TokenManager] Generating token for user: testuser_rmbo8pad on dev
+[07:28:34.409] info: [TokenManager] Token generated successfully. Expires: 2026-10-28T07:28:32.659Z
+[07:28:34.410] debug: [ApiClient] Auth token set: eyJhbGciOiJIUzI1NiIs...
+[07:28:34.410] info: [Fixtures] Authenticated API Client created with token for user: testuser_rmbo8pad
+[07:28:34.410] info: [AccountService] Getting user profile: invalid-uuid
+[07:28:34.411] info: [ApiClient] ➡️  REQUEST
+[07:28:34.495] warn: [ApiClient] ⬅️  RESPONSE
+[07:28:34.497] warn: [ApiClient] Received 401, attempting token refresh and retry...
+[07:28:34.497] info: [TokenManager] Forcing token refresh
+[07:28:34.497] debug: [TokenManager] Token invalidated
+[07:28:34.497] info: [TokenManager] Generating token for user: testuser_rmbo8pad on dev
+[07:28:35.784] info: [TokenManager] Token generated successfully. Expires: 2026-10-28T07:28:34.546Z
+[07:28:35.785] debug: [ApiClient] Auth token set: eyJhbGciOiJIUzI1NiIs...
+[07:28:35.785] info: [ApiClient] ➡️  REQUEST
+[07:28:35.870] warn: [ApiClient] ⬅️  RESPONSE
+[07:28:35.873] debug: [TokenManager] Custom credentials set for user: testuser_rmbo8pad
+[07:28:35.873] debug: [TokenManager] Returning cached token
+[07:28:35.873] debug: [ApiClient] Auth token set: eyJhbGciOiJIUzI1NiIs...
+[07:28:35.873] info: [AccountService] Deleting user: 4db2ed31-4a2a-4e3e-9eef-1c6c6dfe0080
+[07:28:35.873] info: [ApiClient] ➡️  REQUEST
+[07:28:37.478] warn: [ApiClient] ⬅️  RESPONSE
+[07:28:37.479] info: [Fixtures] Test user cleaned up: 4db2ed31-4a2a-4e3e-9eef-1c6c6dfe0080

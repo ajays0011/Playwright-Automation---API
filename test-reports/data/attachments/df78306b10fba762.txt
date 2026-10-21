@@ -1,0 +1,5 @@
+[07:28:46.340] info: [Fixtures] API Client created
+[07:28:46.340] debug: [TestHelpers] Generated unique username: create_headers_okfcizux
+[07:28:46.340] info: [AccountService] Creating user: create_headers_okfcizux
+[07:28:46.341] info: [ApiClient] ➡️  REQUEST
+[07:28:47.032] info: [ApiClient] ⬅️  RESPONSE
