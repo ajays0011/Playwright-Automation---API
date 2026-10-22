@@ -1,0 +1,16 @@
+[07:42:03.460] debug: [DataProvider] Loaded test data from: /home/runner/work/Playwright-Automation---API/Playwright-Automation---API/test-data/negative/invalid-auth.json
+[07:42:03.479] info: [Fixtures] API Client created
+[07:42:03.479] info: [ApiClient] ➡️  REQUEST
+[07:42:03.942] warn: [ApiClient] ⬅️  RESPONSE
+[07:42:03.954] info: [ApiClient] ➡️  REQUEST
+[07:42:04.085] warn: [ApiClient] ⬅️  RESPONSE
+[07:42:04.087] info: [ApiClient] ➡️  REQUEST
+[07:42:04.217] warn: [ApiClient] ⬅️  RESPONSE
+[07:42:04.219] info: [ApiClient] ➡️  REQUEST
+[07:42:04.350] warn: [ApiClient] ⬅️  RESPONSE
+[07:42:04.352] info: [ApiClient] ➡️  REQUEST
+[07:42:04.487] warn: [ApiClient] ⬅️  RESPONSE
+[07:42:04.489] info: [ApiClient] ➡️  REQUEST
+[07:42:04.620] warn: [ApiClient] ⬅️  RESPONSE
+[07:42:04.621] info: [ApiClient] ➡️  REQUEST
+[07:43:03.529] error: [ApiClient] Request failed: POST /Account/v1/GenerateToken

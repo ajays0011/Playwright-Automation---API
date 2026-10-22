@@ -1,6 +1,0 @@
-[07:29:13.262] info: [Fixtures] API Client created
-[07:29:13.262] info: [BookStoreService] Fetching book with ISBN: 9781449325862
-[07:29:13.263] info: [ApiClient] ➡️  REQUEST
-[07:29:13.349] info: [ApiClient] ⬅️  RESPONSE
-[07:29:13.354] debug: [SchemaValidator] SchemaValidator initialized with AJV
-[07:29:13.375] debug: [SchemaValidator] Schema validation passed
