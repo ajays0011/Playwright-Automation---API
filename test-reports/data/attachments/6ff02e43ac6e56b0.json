@@ -1,0 +1,12 @@
+{
+  "method": "POST",
+  "url": "/Account/v1/User",
+  "headers": {
+    "Content-Type": "application/json",
+    "Accept": "application/json"
+  },
+  "body": {
+    "userName": "delete_verify_bn7sr8qu",
+    "password": "Test@gw1i6ffn1A"
+  }
+}
